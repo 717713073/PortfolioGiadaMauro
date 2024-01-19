@@ -3,6 +3,57 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
+ .navbar ul{
+    list-style-type: none;
+    backgound-color: rgb(53, 80, 112);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    }
+
+  .navbar a:hover{
+    background-color: rgb(80, 80, 112)
+}
+
+  .navbar li{
+    float: left;
+    
+
+  }
+ .navbar ul{
+    list-style-type: none;
+    backgound-color: rgb(53, 80, 112);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    }
+
+  .navbar a:hover{
+    background-color: rgb(80, 80, 112)
+}
+
+  .navbar li{
+    float: left;
+     }
+
+
+
 
 a {
   color: #000;
@@ -130,28 +181,4 @@ a {
     padding: 20px 30px;
   }
 
-  .navbar ul{
-    list-style-type: none;
-    backgound-color: rgb(53, 80, 112);
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-
-  .navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    }
-
-  .navbar a:hover{
-    background-color: rgb(80, 80, 112)
-}
-
-  .navbar li{
-    float: left;
-    
-
-  }
+ 
