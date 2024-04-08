@@ -24,6 +24,28 @@ font-weight:700;
   text-decoration: none;
   margin-left: 40px;
 
-  
-   } 
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: light-grey;
+}
+
+.wrapper {
+margin:150px auto;
+width: 70%;
+}
+
+img{
+      max-widht: 320px;
+      float: left;
+      border: 3px solid #fff;
+      margin-right: 15px;
+      
+}
+      
+            
 
