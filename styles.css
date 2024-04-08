@@ -31,7 +31,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background: #F0F8FF;
 }
 
 .wrapper {
@@ -43,7 +42,7 @@ img{
 max-widht: 320px;
 float: left;
 border: 3px solid #fff;
-border-radius: 10px #000000;      
+border-radius: 10px rgb(16,16,16);      
 margin-right: 15px;
       
 }
