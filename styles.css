@@ -1,5 +1,5 @@
 body {
-      background-color: powderblue;
+      background-color: #F8F8FF;
     }
 
 
@@ -7,10 +7,12 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 90%;
+  width: 100%;
   padding: 20px 100px;
+  background: #D3D3D3;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   z-index: 100;
   }
 
@@ -27,10 +29,33 @@ font-weight:700;
   color: rgb(16,16,16);
   font-weight: 500;
   text-decoration: none;
-  margin-left: 40px;
+  padding-right: 140px;
 
 }
 
-      
-            
-
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	}
+	
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	}
+	
+	.wrapper{
+		margin:150px auto;
+		width: 70%;
+	
+	img{
+		max-width: 320px;
+		float: left;
+		margin-right: 70px;
+		}
+		
+	.text-box h2 {
+		font-size: 60px;
