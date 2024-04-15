@@ -1,4 +1,4 @@
-<h1>**Portfolio Giada Mauro**</h5>
+<h1>Portfolio Giada Mauro</h1>
 
 <h5>-Anno accademico 2023/2024</h5>
 
