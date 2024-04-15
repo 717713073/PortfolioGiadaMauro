@@ -1,14 +1,14 @@
-<h1>**Portfolio Giada Mauro**</h1>
+<h1>**Portfolio Giada Mauro**</h5>
 
-<h2>-Anno accademico 2023/2024</h2>
+<h5>-Anno accademico 2023/2024</h5>
 
-<h2>-Giada Mauro</h2>
+<h5>-Giada Mauro</h5>
 
-<h2>-matricola 995</h2>
+<h5>-matricola 995</h5>
 
-<h2>-Corso di Web design</h2>
+<h5>-Corso di Web design</h5>
 
-<h2>-Docente Matteo Baccan</h2>
+<h5>-Docente Matteo Baccan</h5>
 
-<h2>-Realizzazione di un sito portfolio che contiene alcuni dei miei lavori</h2>
+<h5>-Realizzazione di un sito portfolio che contiene alcuni dei miei lavori</h5>
 
