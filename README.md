@@ -1,14 +1,14 @@
 **Portfolio Giada Mauro**
 
-*Anno accademico 2023/2024
+-Anno accademico 2023/2024
 
-*Giada Mauro
+-Giada Mauro
 
-*matricola 995
+-matricola 995
 
-*Corso di Web design
+-Corso di Web design
 
-*Docente Matteo Baccan
+-Docente Matteo Baccan
 
-*Realizzazione di un sito portfolio che contiene alcuni dei miei lavori
+-Realizzazione di un sito portfolio che contiene alcuni dei miei lavori
 
