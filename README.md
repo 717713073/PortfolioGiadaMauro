@@ -5,7 +5,7 @@ Corso di web design
 Docente Matteo Baccan
 Anno accademico 2023/2024
 
-##Scopo del repository
+## Scopo del repository
 Repository contenente informazioni e strumenti utilizzati per la realizzazione di un sito web monopagina
 
 ## Portfolio personale - Giada Mauro
