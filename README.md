@@ -6,7 +6,7 @@
 - Anno accademico 2023/2024
 
 ## Scopo del repository
-Repository contenente informazioni e strumenti utilizzati per la realizzazione di un sito web monopagina
+Questo repository contiene informazioni e strumenti utilizzati per la realizzazione di un sito web monopagina
 
 ## Portfolio personale - Giada Mauro
 
