@@ -1,9 +1,9 @@
 # ACME 2023/2024 - Corso di Web Design
-Giada Mauro
-Matricola 995
-Corso di web design
-Docente Matteo Baccan
-Anno accademico 2023/2024
+- Giada Mauro
+- Matricola 995
+- Corso di web design
+- Docente Matteo Baccan
+- Anno accademico 2023/2024
 
 ## Scopo del repository
 Repository contenente informazioni e strumenti utilizzati per la realizzazione di un sito web monopagina
