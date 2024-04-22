@@ -15,3 +15,7 @@ barra di navigazione superiore con tre sezioni:
 - sezione "lavori"
 - sezione "contatti"
 
+### Strumenti utilizzati
+- Notepad++
+- Codepen.io
+
