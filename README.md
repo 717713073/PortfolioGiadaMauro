@@ -10,7 +10,8 @@ Questo repository contiene informazioni e strumenti utilizzati per la realizzazi
 
 ### Portfolio personale - Giada Mauro
 ## Composizione del sito
-- barra di navigazione superiore con tre sezioni
+barra di navigazione superiore con tre sezioni:
+- sezione "home"
 - sezione "lavori"
 - sezione "contatti"
 
