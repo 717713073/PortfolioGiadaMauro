@@ -8,5 +8,9 @@
 ## Scopo del repository
 Questo repository contiene informazioni e strumenti utilizzati per la realizzazione di un sito web monopagina
 
-## Portfolio personale - Giada Mauro
+### Portfolio personale - Giada Mauro
+## Composizione del sito
+- barra di navigazione superiore con tre sezioni
+- sezione "lavori"
+- sezione "contatti"
 
