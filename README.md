@@ -1,14 +1,12 @@
-<h1>Portfolio Giada Mauro</h1>
+# ACME 2023/2024 - Corso di Web Design
+Giada Mauro
+Matricola 995
+Corso di web design
+Docente Matteo Baccan
+Anno accademico 2023/2024
 
-<h5>-Anno accademico 2023/2024</h5>
+##Scopo del repository
+Repository contenente informazioni e strumenti utilizzati per la realizzazione di un sito web monopagina
 
-<h5>-Giada Mauro</h5>
-
-<h5>-matricola 995</h5>
-
-<h5>-Corso di Web design</h5>
-
-<h5>-Docente Matteo Baccan</h5>
-
-<h5>-Realizzazione di un sito portfolio che contiene alcuni dei miei lavori</h5>
+## Portfolio personale - Giada Mauro
 
