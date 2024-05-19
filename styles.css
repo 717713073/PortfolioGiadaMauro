@@ -30,13 +30,15 @@ width: 20px;
 
 }
 
+.logoschermata {
+padding-left: 80px;
+	}
+
 .boxtesto {
 font-size: 20px;
-float: right;
-padding-left: 50px;
-padding-right: 50px;
-	
-	}
+float: left;
+padding-left: 40px;
+}
 
 
 
