@@ -7,13 +7,13 @@ body {
 .header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 40px;
   width: 100%;
-  padding: 20px 40px;
+  padding: 20px 70px;
   background: white;
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: left;	
   z-index: 100;
   }
 
