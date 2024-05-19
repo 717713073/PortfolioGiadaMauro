@@ -36,28 +36,7 @@ width: 20px;
 	box-sizing: border-box;
 	
 	}
-	
-body {
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	}
-	
-	.wrapper{
-		margin:150px auto;
-		width: 70%;
-	
-	img{
-		max-width: 400px;
-		float: left;
-		padding-top: 30px;
-		margin-right: 70px;
-		}
-		
-	.text-box h2 {
-		font-size: 60px;
-		padding-top: 25px;
-		}
+
 
 
 .rivista1 {	
