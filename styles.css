@@ -10,7 +10,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  padding-left: 100px;
+  padding-right: 100px;
   background: white;
   display: flex;
   justify-content: space-between;
