@@ -47,19 +47,24 @@ margin: 0 auto;
 
 .magazine {	
 text-align: center;
+margin: 0 auto;
 }
 
 .brochure {	
 text-align: center;
+margin: 0 auto;
 }
 
 .label {
 text-align: center;
 border-radius: 0px 0px 25px 25px; 
+margin: 0 auto;
 }
 
 .fondo {
 text-align: center;
+padding-top: 20px;
+padding-bottom: 40px;
 }
 
 
