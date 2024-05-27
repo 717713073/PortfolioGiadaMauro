@@ -1,5 +1,5 @@
 body {
-      background-color: #565656;
+      background-color: #290628;
 	  font-family: "Nunito", regular;
     }
 
@@ -10,7 +10,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 70px;
-  background: #565656;
+  background: #290628;
   display: flex;
   justify-content: space-between;
   align-items: left;	
