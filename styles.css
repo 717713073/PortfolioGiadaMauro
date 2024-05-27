@@ -40,7 +40,7 @@ text-align: center;
 
 
 .works {	
-border-radius: 25px 25px 0px 0px; 
+border-radius: 15px 15px 0px 0px; 
 text-align: center;
 margin: 0 auto;
 }
@@ -57,7 +57,7 @@ margin: 0 auto;
 
 .label {
 text-align: center;
-border-radius: 0px 0px 25px 25px; 
+border-radius: 0px 0px 15px 15px; 
 margin: 0 auto;
 padding-bottom: 10px;
 margin-bottom: 30px;
