@@ -43,25 +43,28 @@ text-align: center;
 border-radius: 10px 10px 10px 10px; 
 text-align: center;
 margin: 0 auto;
+padding-bottom: 30px;	
 }
 
 .magazine {	
 border-radius: 10px 10px 10px 10px;	
 text-align: center;
 margin: 0 auto;
+padding-bottom: 30px;	
 }
 
 .brochure {
 border-radius: 10px 10px 10px 10px;	
 text-align: center;
 margin: 0 auto;
+padding-bottom: 30px;	
 }
 
 .label {
 text-align: center;
 border-radius: 10px 10px 10px 10px; 
 margin: 0 auto;
-padding-bottom: 10px;
+padding-bottom: 30px;
 margin-bottom: 200px;
 }
 
