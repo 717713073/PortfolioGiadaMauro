@@ -40,24 +40,26 @@ text-align: center;
 
 
 .works {	
-border-radius: 0px 0px 0px 0px; 
+border-radius: 10px 10px 10px 10px; 
 text-align: center;
 margin: 0 auto;
 }
 
 .magazine {	
+border-radius: 10px 10px 10px 10px;	
 text-align: center;
 margin: 0 auto;
 }
 
-.brochure {	
+.brochure {
+border-radius: 10px 10px 10px 10px;	
 text-align: center;
 margin: 0 auto;
 }
 
 .label {
 text-align: center;
-border-radius: 0px 0px 0px 0px; 
+border-radius: 10px 10px 10px 10px; 
 margin: 0 auto;
 padding-bottom: 10px;
 margin-bottom: 200px;
