@@ -52,20 +52,22 @@ border-radius: 10px 10px 10px 10px;
 text-align: center;
 margin: 0 auto;
 margin-bottom: 40px;	
+padding-bottom: 50px;	
 }
 
 .brochure {
 border-radius: 10px 10px 10px 10px;	
 text-align: center;
 margin: 0 auto;
-margin-bottom: 40px;	
+margin-bottom: 40px;
+padding-bottom: 50px;	
 }
 
 .label {
 text-align: center;
 border-radius: 10px 10px 10px 10px; 
 margin: 0 auto;
-padding-bottom: 40px;
+padding-bottom: 50px;
 margin-bottom: 30px;
 }
 
