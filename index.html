@@ -55,32 +55,36 @@
  <div class="container">
     <h1 style="color: white">Contattami qui</h1>
 
-    <form name="contatti" method="POST" data-netlify="true">      
-      <input type="hidden" name="subject" value="Nuovi dati ricevuti dalla form %{formName} (%{submissionId})" />
-      <!-- form group   -->
-      <div class="form-group1">
-        <label style="color: white  for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" class="form-control" placeholder="Inserisci il tuo nome">
-      </div>
-      <!-- form group   -->
-      <div class="form-group2">
-        <label style="color: white for="email">Email</label>
-        <input type="email" name="email" id="email" class="form-control" placeholder="Inserisci la tua email per farti ricontattare">
-      </div>
-      <!-- form group   -->
-      <div class="form-group3">
-        <label style="color: white for="messaggio">Commento</label>
-        <textarea name="messaggio" id="messaggio" class="form-control"
-          placeholder="Inserisci il motivo del tuo contatto"></textarea>
-      </div>
-      <br />
-      <div data-netlify-recaptcha="true"></div>
-      <br/>
-      <div class="form-group4">
-        <button type="submit" class="btn btn-primary">Invia</button>
-      </div>
-    </form>
-  </div>
+<form name="contatti" method="POST" data-netlify="true">      
+<input type="hidden" name="subject" value="Nuovi dati ricevuti dalla form %{formName} (%{submissionId})" />
+<!-- form group   -->
+<div class="form-group1">
+<label  style= "color: white" for="nome">Nome</label>
+<input type="text" name="nome" id="nome" class="form-control1" placeholder="Inserisci il tuo nome">
+</div>
+      
+<!-- form group   -->
+<div class="form-group2">
+<label  for="email">Email</label>
+<input type="email" name="email" id="email" class="form-control2" placeholder="Inserisci la tua email per farti ricontattare">
+</div>
+      
+<!-- form group   -->
+<div class="form-group3">
+<label for="messaggio">Commento</label>
+<textarea name="messaggio" id="messaggio" class="form-control3"
+placeholder="Inserisci il motivo del tuo contatto"></textarea>
+</div>
+<br />
+<div data-netlify-recaptcha="true"></div>
+<br/>
+
+<div class="form-group4">
+<button type="submit" class="btn btn-primary">Invia</button>
+</div>
+
+</form>
+</div>
 
 	  
 	  
