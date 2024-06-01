@@ -38,12 +38,14 @@ flex-direction: row;
 .logoschermata {
 padding-top: 100px;
 padding-bottom:70px;
-margin-bottom:200px;	
+margin-bottom:200px;
 text-align: center;
+margin-left: 100px;
 }
 
 .descrizione {
 margin-left: 150px;
+margin-top: 200px;
 }
 
 
