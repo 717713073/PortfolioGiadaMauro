@@ -71,8 +71,10 @@ padding-bottom: 50px;
 margin-bottom: 30px;
 }
 
-.form-group1 {
-flex-direction: column;
+.form-control1 {
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #2b2d42;
 }
 
 .form-group2 {
