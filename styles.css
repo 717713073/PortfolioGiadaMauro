@@ -82,7 +82,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 background-color: #2b2d42;
 border-radius: 5px 5px 5px 5px;
-
+border-color: white;
 }
 
 .form-control2 {
@@ -90,6 +90,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 background-color: #2b2d42;
 border-radius: 5px 5px 5px 5px;
+border-color: white;
 }	
 
 .form-control3 {
@@ -97,6 +98,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 background-color: #2b2d42;
 border-radius: 5px 5px 5px 5px;
+border-color: white;
 }	
 
 .form-control4 {
@@ -104,6 +106,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 background-color: #2b2d42;
 border-radius: 5px 5px 5px 5px;
+border-color: white;
 }	
 
 .robot {
