@@ -71,16 +71,20 @@ padding-bottom: 50px;
 margin-bottom: 30px;
 }
 
-.fondo {
-text-align: center;
-padding-top: 20px;
-padding-bottom: 20px;	
+.form-group1 {
+flex-direction: column;
 }
 
-.spazioform {
-text-align: center;
-padding-top: 70px;
-padding-bottom: 70px;	
+.form-group2 {
+
+}	
+
+.form-group3 {
+
+}	
+
+.form-group4 {
+
 }	
 
 
