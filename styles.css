@@ -73,6 +73,7 @@ margin-bottom: 30px;
 
 .containercontatti {
 text-align: center;
+border-widht: 2px;
 }
 	
 .form-control1 {
@@ -80,6 +81,7 @@ margin-top: 20px;
 margin-bottom: 20px;
 background-color: #2b2d42;
 border-radius: 5px 5px 5px 5px;
+
 }
 
 .form-control2 {
@@ -103,6 +105,9 @@ background-color: #2b2d42;
 border-radius: 5px 5px 5px 5px;
 }	
 
+.robot {
+text-align: center;
+}
 
 		
 		
