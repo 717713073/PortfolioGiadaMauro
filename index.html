@@ -52,16 +52,35 @@
 	
 </div>	
 
-<div class="spazioform" style="background-color:#2b2d42">
-<h2 style="color: white"> SPAZIO FORM </h2>
-</div>	  
+ <div class="container">
+    <h1>Contattami qui</h1>
 
-<div class="fondo" style="background-color:#B8CCF8">
-<h2 id="CONTATTI" style="padding-top:20px; color:#2b2d42">CONTATTI</h2>
-<h5 style="color:#2b2d42">Numero: 0000000000</h5>
-<h5 style="color:#2b2d42">Email: giada6srg@gmail.com</h5>
-<h5 style="color:#2b2d42">Instagram: giada.m_</h5>
-</div>
+    <form name="contatti" method="POST" data-netlify="true">      
+      <input type="hidden" name="subject" value="Nuovi dati ricevuti dalla form %{formName} (%{submissionId})" />
+      <!-- form group   -->
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" class="form-control" placeholder="Inserisci il tuo nome: ci aiuterà a ricordarci come ti chiami">
+      </div>
+      <!-- form group   -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Inserisci la tua email: ci permetterà di risponderti">
+      </div>
+      <!-- form group   -->
+      <div class="form-group">
+        <label for="messaggio">Commento</label>
+        <textarea name="messaggio" id="messaggio" class="form-control"
+          placeholder="Inserisci il motivo del tuo contatto"></textarea>
+      </div>
+      <br />
+      <div data-netlify-recaptcha="true"></div>
+      <br/>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Invia</button>
+      </div>
+    </form>
+  </div>
 
 	  
 	  
