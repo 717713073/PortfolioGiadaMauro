@@ -28,7 +28,11 @@ width: 20px;
   font-weight: 500;
   text-decoration: none;
   padding-right: 80px;
+}
 
+.landingpage {
+display: flex;
+flex-direction: row;
 }
 
 .logoschermata {
@@ -36,7 +40,11 @@ padding-top: 100px;
 padding-bottom:70px;
 margin-bottom:200px;	
 text-align: center;
-	}
+}
+
+.descrizione {
+margin-left: 150px;
+}
 
 
 
