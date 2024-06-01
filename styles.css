@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   align-items: left;	
   z-index: 100;
+  margin-bottom: 30px;
   }
 
 .logo {
