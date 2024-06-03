@@ -160,13 +160,13 @@ padding-top: 100px;
 padding-bottom:70px;
 margin-bottom:200px;
 text-align: center;
-margin-left: 100px;
+margin-left: 30px;
 width: 200px;
 }
 
 @media (max-width: 480px)
 .descrizione {
-margin-left: 20px;
+margin-left: 10px;
 margin-top: 40px;
 font-size: 10px;
 }
