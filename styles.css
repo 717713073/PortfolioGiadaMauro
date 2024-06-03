@@ -33,6 +33,7 @@ width: 20px;
 .landingpage {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 }
 
 .logoschermata {
@@ -41,6 +42,7 @@ padding-bottom:70px;
 margin-bottom:200px;
 text-align: center;
 margin-left: 100px;
+flex-basis: 50%;
 }
 
 .descrizione {
@@ -148,6 +150,18 @@ padding-right: 8px;
 .robot {
 margin-left: 600px;
 margin-right: 600px;
+}
+
+
+
+@media (max-width: 480px)
+.logoschermata {
+padding-top: 100px;
+padding-bottom:70px;
+margin-bottom:200px;
+text-align: center;
+margin-left: 100px;
+flex-basis: 100%
 }
 
 
