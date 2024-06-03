@@ -36,6 +36,7 @@ width: 20px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+border: 1px solid white;
 }
 
 .logoschermata {
@@ -45,6 +46,7 @@ margin-bottom:200px;
 text-align: center;
 margin-left: 100px;
 width: 400px;
+border: 1px solid red;
 }
 
 .descrizione {
@@ -52,6 +54,7 @@ margin-left: 150px;
 margin-top: 200px;
 font-weight: 100;
 font-size: 30px;
+border: 1px solid green;
 }
 
 
