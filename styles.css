@@ -190,6 +190,13 @@ margin-left: 20px;
 }
 
 
+@media (max-width: 320px)
+.magazine {	
+text-align: center;
+margin: 0 auto;
+margin-bottom: 40px;	
+padding-bottom: 50px;	
+}
 
 
 
