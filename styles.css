@@ -41,10 +41,14 @@ border: 1px solid white;
 
 .logoschermata {
 border: 1px solid red;
+height: 400px;
+margin-left: 30px;
+margin-top: 50px;
 }
 
 .descrizione {
 border: 1px solid green;
+font-size: 30px;	
 }
 
 
