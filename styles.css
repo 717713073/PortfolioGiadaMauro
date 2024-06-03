@@ -36,6 +36,7 @@ width: 20px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+padding-bottom: 80px;
 border: 1px solid white;
 }
 
@@ -45,17 +46,17 @@ display: flex;
 flex-direction: row;
 height: 400px;
 text-align:center;
-margin-top: 60px;
-margin-left: 60px;
+margin-top: 100px;
+margin-left: 80px;
 }
 
 .descrizione {
 border: 1px solid green;
 display: flex;
 flex-direction: column;
-font-size: 30px;
-margin-top: 60px;
-margin-left: 40px;
+font-size: 60px;
+margin-top: 100px;
+margin-left: 60px;
 }
 
 
@@ -159,23 +160,34 @@ margin-left: 600px;
 margin-right: 600px;
 }
 
-
-
-@media (max-width: 300px)
-.logoschermata {
-padding-top: 100px;
-padding-bottom:70px;
-margin-bottom:200px;
-text-align: center;
-margin-left: 10px;
-width:180px;
+@media (max-width: 768px)
+.landingpage {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding-bottom: 80px;
+border: 1px solid white;
 }
 
-@media (max-width: 300px)
+@media (max-width: 768px)
+.logoschermata {
+border: 1px solid red;
+display: flex;
+flex-direction: row;
+height: 400px;
+text-align:center;
+margin-top: 50px;
+margin-left: 40px;
+}
+
+@media (max-width: 768px)
 .descrizione {
-margin-left: 10px;
-margin-top: 10px;
-font-size: 5px;
+border: 1px solid green;
+display: flex;
+flex-direction: column;
+font-size: 30px;
+margin-top: 50px;
+margin-left: 30px;
 }
 
 
