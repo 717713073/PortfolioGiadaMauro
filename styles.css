@@ -30,6 +30,8 @@ width: 20px;
   font-weight: 500;
   text-decoration: none;
   padding-right: 80px;
+  padding:0;
+  margin:0;
 }
 
 .landingpage {
@@ -50,12 +52,21 @@ margin-top: 100px;
 margin-left: 80px;
 }
 
-.descrizione {
+.descrizione1 {
 border: 1px solid green;
 display: flex;
 flex-direction: column;
 font-size: 60px;
 margin-top: 100px;
+margin-left: 60px;
+}
+
+.descrizione2 {
+border: 1px solid yellow;
+display: flex;
+flex-direction: column;
+font-size: 60px;
+margin-top: 20px;
 margin-left: 60px;
 }
 
@@ -181,12 +192,21 @@ margin-left: 20px;
 }
 
 @media (max-width: 768px)
-.descrizione {
+.descrizione1 {
 border: 1px solid green;
 display: flex;
 flex-direction: column;
 font-size: 30px;
 margin-top: 20px;
+margin-left: 20px;
+}
+
+.descrizione2 {
+border: 1px solid yellow;
+display: flex;
+flex-direction: column;
+font-size: 60px;
+margin-top: 5px;
 margin-left: 20px;
 }
 
