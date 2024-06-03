@@ -42,7 +42,7 @@ padding-bottom:70px;
 margin-bottom:200px;
 text-align: center;
 margin-left: 100px;
-flex-basis: 30%;
+width: 30%;
 }
 
 .descrizione {
@@ -161,7 +161,7 @@ padding-bottom:70px;
 margin-bottom:200px;
 text-align: center;
 margin-left: 100px;
-flex-basis: 50%
+width: 100%
 }
 
 
