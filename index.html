@@ -34,7 +34,7 @@
             width: 600px;
             display: block;
         }
-        .swiper-button2 {
+        .swiper-button {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -44,10 +44,10 @@
             padding: 10px;
             cursor: pointer;
         }
-        .swiper-button.prev2 {
+        .swiper-button.prev {
             left: 10px;
         }
-        .swiper-button.next2 {
+        .swiper-button.next {
             right: 10px;
         }
     </style>
@@ -153,10 +153,10 @@
     </div>
 
     <script>
-        const swiperWrapper = document.querySelector('.swiper-wrapper2');
+        const swiperWrapper = document.querySelector('.swiper-wrapper');
         const slides = document.querySelectorAll('.swiper-slide2');
-        const prevButton = document.querySelector('.swiper-button.prev2');
-        const nextButton = document.querySelector('.swiper-button.next2');
+        const prevButton = document.querySelector('.swiper-button.prev');
+        const nextButton = document.querySelector('.swiper-button.next');
         let currentIndex = 0;
 
         function updateSwiper() {
