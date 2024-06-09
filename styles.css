@@ -211,7 +211,7 @@ margin-bottom: 40px;
 padding-bottom: 50px;	
 }
 
-<!-- da qui css slider -->
+
  .swiper-container {
             position: relative;
             width: 600px;
@@ -249,11 +249,11 @@ padding-bottom: 50px;
         .swiper-button.next {
             right: 10px;
         }
-<!-- fino a qui css slider -->
 
 
 
-<!-- da qui css tasto torna su -->
+
+
 .back-to-top {
             position: fixed;
             bottom: 20px;
@@ -271,7 +271,7 @@ padding-bottom: 50px;
             display: block; /* fa vedere il bottone quando ha la classe show */
 	    border: 2px solid white;
         }
-<!-- fino a qui css tasto torna su -->
+
 
 
 
