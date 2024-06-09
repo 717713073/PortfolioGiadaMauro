@@ -78,6 +78,15 @@ margin-bottom: 40px;
 padding-bottom: 50px;	
 }
 
+.testomagazine {	
+text-align: center;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+border: 1px solid black;
+width:420px;
+}
+
 .brochure {
 border-radius: 10px 10px 10px 10px;	
 text-align: center;
@@ -252,7 +261,7 @@ padding-bottom: 50px;
 
 
 
-<!-- da qui css slider -->
+<!-- da qui css tasto torna su -->
 .back-to-top {
             position: fixed;
             bottom: 20px;
@@ -270,7 +279,7 @@ padding-bottom: 50px;
             display: block; /* fa vedere il bottone quando ha la classe show */
 	    border: 2px solid white;
         }
-<!-- fino a qui css slider -->
+<!-- fino a qui css tasto torna su -->
 
 
 
