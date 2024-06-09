@@ -225,6 +225,7 @@ padding-bottom: 50px;
         }
         .back-to-top.show {
             display: block; /* fa vedere il bottone quando ha la classe show */
+	    border: 2px solid white;
         }
 
 
