@@ -40,14 +40,19 @@
 
 	
 <!-- MAGAZINE -->
-<div class="magazine" style= "padding-top: 10px; padding-bottom: 10px; background-color: white; width: 85%">
- <div class="testomagazine" style= "padding-top:80px; padding-bottom:40px">
- <h2 style="color:#2b2d42">Magazine</h2>
- </div>
+<div class="magazine" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%; border: 1px solid black">
+<div class="testomagazine" style= "padding-top:80px; padding-bottom:40px">
+<h2 style="color:#2b2d42; padding-right: 20px">Magazine</h2>
+<h3 style= "padding-left: 40px; padding-right: 20px">Inserire testo dopo.</h3>
 </div>
-<div>
-<img src="Immagini/Magazine1.jpg" width="20%">
-<img src="Immagini/Magazine2.jpg" width="20%">
+ <div class="swiper-container2">
+        <div class="swiper-wrapper2">
+            <div class="swiper-slide2"><img src="Immagini/Magazine1.jpg" alt="Slide 1" style= "width 200px"></div>
+            <div class="swiper-slide2"><img src="Immagini/Magazine2.jpg" alt="Slide 2" style= "width 200px"></div>
+        </div>
+        <button class="swiper-button prev2">&lt;</button>
+        <button class="swiper-button next2">&gt;</button>
+    </div>
 </div>
 <!-- FINE MAGAZINE -->
 
@@ -117,7 +122,7 @@
 
 
 
-<!-- da qui animazione slider -->	
+<!-- da qui animazione slider triante -->	
  <script>
         const swiperWrapper = document.querySelector('.swiper-wrapper');
         const slides = document.querySelectorAll('.swiper-slide');
@@ -140,7 +145,38 @@
             updateSwiper();
         });
     </script>
-<!-- fino a qui animazione slider -->
+<!-- fino a qui animazione slider triante -->
+
+
+
+<!-- da qui animazione slider magazine -->
+ <script>
+        const swiperWrapper = document.querySelector('.swiper-wrapper2');
+        const slides = document.querySelectorAll('.swiper-slide2');
+        const prevButton = document.querySelector('.swiper-button.prev2');
+        const nextButton = document.querySelector('.swiper-button.next2');
+        let currentIndex = 0;
+
+        function updateSwiper() {
+            const offset = -currentIndex * 100;
+            swiperWrapper.style.transform = `translateX(${offset}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+            updateSwiper();
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+            updateSwiper();
+        });
+    </script>
+<!-- fino a qui animazione slider magazine -->
+
+
+
+	  
 
 <!-- da qui animazione bottone torna su -->	
 <button class="back-to-top" id="backToTop">Torna su</button>
