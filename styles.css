@@ -214,17 +214,17 @@ padding-bottom: 50px;
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #007BFF;
+            background-color: ##2b2d42;
             color: white;
             border: none;
             padding: 10px 20px;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
-            display: none; /* Nascondi il bottone inizialmente */
+            display: none; /* Nasconde il bottone quando sei sulla home */
             z-index: 1000;
         }
         .back-to-top.show {
-            display: block; /* Mostra il bottone quando ha la classe show */
+            display: block; /* fa vedere il bottone quando ha la classe show */
         }
 
 
