@@ -210,6 +210,49 @@ margin-bottom: 40px;
 padding-bottom: 50px;	
 }
 
+<!-- da qui css slider -->
+ .swiper-container {
+            position: relative;
+            width: 600px;
+            max-width: 600px;
+            overflow: hidden;
+	    margin-left:80px;
+	    margin-right:80px;
+	    border: 5px solid purple;	
+        }
+        .swiper-wrapper {
+            display: flex;
+            transition: transform 0.3s ease-in-out;
+        }
+        .swiper-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .swiper-slide img {
+            width: 600px;
+            display: block;
+        }
+        .swiper-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .swiper-button.prev {
+            left: 10px;
+        }
+        .swiper-button.next {
+            right: 10px;
+        }
+<!-- fino a qui css slider -->
+
+
+
+<!-- da qui css slider -->
 .back-to-top {
             position: fixed;
             bottom: 20px;
@@ -227,7 +270,7 @@ padding-bottom: 50px;
             display: block; /* fa vedere il bottone quando ha la classe show */
 	    border: 2px solid white;
         }
-
+<!-- fino a qui css slider -->
 
 
 
