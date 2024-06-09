@@ -210,6 +210,22 @@ margin-bottom: 40px;
 padding-bottom: 50px;	
 }
 
+.back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none; /* Nascondi il bottone inizialmente */
+            z-index: 1000;
+        }
+        .back-to-top.show {
+            display: block; /* Mostra il bottone quando ha la classe show */
+        }
 
 
 
