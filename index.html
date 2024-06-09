@@ -180,6 +180,27 @@
 <!-- fino a qui -->
 
 
+<button class="back-to-top" id="backToTop">Torna su</button>
+
+    <script>
+        const backToTopButton = document.getElementById('backToTop');
+
+        // Mostra il bottone quando si scrolla verso il basso di 100px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Scrolla verso l'alto quando si clicca il bottone
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+
+
 	  
 	  
 </body>
