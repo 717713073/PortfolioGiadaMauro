@@ -10,48 +10,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.cdnfonts.com/css/tt-chocolates" rel="stylesheet">
 
-<!-- da qui css slider -->
-<style>
-
-        .swiper-container {
-            position: relative;
-            width: 600px;
-            max-width: 600px;
-            overflow: hidden;
-	    margin-left:80px;
-	    margin-right:80px;
-	    border: 5px solid purple;	
-        }
-        .swiper-wrapper {
-            display: flex;
-            transition: transform 0.3s ease-in-out;
-        }
-        .swiper-slide {
-            min-width: 100%;
-            box-sizing: border-box;
-        }
-        .swiper-slide img {
-            width: 600px;
-            display: block;
-        }
-        .swiper-button {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .swiper-button.prev {
-            left: 10px;
-        }
-        .swiper-button.next {
-            right: 10px;
-        }
-    </style>
-<!-- fino a qui css slider -->
   
   </head>
   
@@ -80,12 +38,26 @@
 <div id="PORTFOLIO" class="works" style= "padding-top: 40px; padding-bottom: 60px; background-color: white; width: 100%">
 <h1 style="color:#2b2d42">PORTFOLIO</h1>
 
+	
+<!-- MAGAZINE -->
 <div class="magazine" style= "padding-top: 10px; padding-bottom: 10px; background-color: white; width: 85%">
-<h3 style="color:#2b2d42">Magazine</h3>
-<img src="Immagini/Magazine1.jpg" width="40%">
-<img src="Immagini/Magazine2.jpg" width="40%">
+<div class="testomagazine" style= "padding-top:80px; padding-bottom:40px">
+<h2 style="color:#2b2d42">Magazine</h2>
+<h3 style= "padding-left: 40px; padding-right: 20px">Creazione di pagine interne e copertina di una rivista di bellezza.</h3>
 </div>
+ <div class="swiper-container2">
+        <div class="swiper-wrapper2">
+            <div class="swiper-slide"><img src="Immagini/Magazine1.jpg" alt="Slide 1" style= "width 30%"></div>
+            <div class="swiper-slide"><img src="Immagini/Magazine2.jpg" alt="Slide 2" style= "width 30%"></div>
+        </div>
+        <button class="swiper-button prev">&lt;</button>
+        <button class="swiper-button next">&gt;</button>
+    </div>
+</div>
+<!-- FINE MAGAZINE -->
 
+
+<!-- BROCHURE -->
 <div class="brochure" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%; border: 1px solid black">
 <div class="testobrochure" style= "padding-top:80px; padding-bottom:40px">
 <h2 style="color:#2b2d42; padding-right: 20px">Brochure triante</h2>
@@ -101,11 +73,15 @@
         <button class="swiper-button next">&gt;</button>
     </div>
 </div>
-	
+<!-- FINE BROCHURE -->
+
+
+<!-- ETICHETTA -->	
 <div class="label" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%">
 <h3 style="color:#2b2d42">Etichetta vino</h3>
 <img src="Immagini/Vino1.jpg" width="20%">
 </div>
+<!-- FINE ETICHETTA -->
 	
 </div>	
 
