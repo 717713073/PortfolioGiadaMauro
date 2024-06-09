@@ -70,6 +70,25 @@ padding-bottom: 40px;
 padding-top: 15px;
 }
 
+.magazine {
+border-radius: 10px 10px 10px 10px;	
+text-align: center;
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+margin-bottom: 40px;
+padding-bottom: 50px;	
+}
+
+.testomagazine {	
+text-align: center;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+border: 1px solid black;
+width:420px;
+}
+
 .brochure {
 border-radius: 10px 10px 10px 10px;	
 text-align: center;
