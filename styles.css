@@ -81,6 +81,8 @@ padding-bottom: 50px;
 .brochure {
 border-radius: 10px 10px 10px 10px;	
 text-align: center;
+display: flex;
+flex-direction: row-reverse;
 margin: 0 auto;
 margin-bottom: 40px;
 padding-bottom: 50px;	
