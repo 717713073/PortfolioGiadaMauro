@@ -13,27 +13,28 @@
 <!-- da qui -->
 <style>
 
-        .swiper-container {
+        .swiper-container2 {
             position: relative;
             width: 600px;
             max-width: 600px;
             overflow: hidden;
-	    margin: 460px;
+	    margin-left:300px;
+	    margin-right:300px;
 	    border: 5px solid purple;	
         }
-        .swiper-wrapper {
+        .swiper-wrapper2 {
             display: flex;
             transition: transform 0.3s ease-in-out;
         }
-        .swiper-slide {
+        .swiper-slide2 {
             min-width: 100%;
             box-sizing: border-box;
         }
-        .swiper-slide img {
+        .swiper-slide2 img {
             width: 600px;
             display: block;
         }
-        .swiper-button {
+        .swiper-button2 {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -43,10 +44,10 @@
             padding: 10px;
             cursor: pointer;
         }
-        .swiper-button.prev {
+        .swiper-button.prev2 {
             left: 10px;
         }
-        .swiper-button.next {
+        .swiper-button.next2 {
             right: 10px;
         }
     </style>
@@ -87,14 +88,14 @@
 
 <div class="brochure" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%; border: 1px solid black">
 <h3 style="color:#2b2d42">Brochure triante</h3>
- <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="Immagini/Triante1.jpg" alt="Slide 1" style= "width 30%"></div>
-            <div class="swiper-slide"><img src="Immagini/Triante2.jpg" alt="Slide 2" style= "width 30%"></div>
-            <div class="swiper-slide"><img src="Immagini/Triante3.jpg" alt="Slide 3" style= "width 30%"></div>
+ <div class="swiper-container2">
+        <div class="swiper-wrapper2">
+            <div class="swiper-slide2"><img src="Immagini/Triante1.jpg" alt="Slide 1" style= "width 30%"></div>
+            <div class="swiper-slide2"><img src="Immagini/Triante2.jpg" alt="Slide 2" style= "width 30%"></div>
+            <div class="swiper-slide2"><img src="Immagini/Triante3.jpg" alt="Slide 3" style= "width 30%"></div>
         </div>
-        <button class="swiper-button prev">&lt;</button>
-        <button class="swiper-button next">&gt;</button>
+        <button class="swiper-button prev2">&lt;</button>
+        <button class="swiper-button next2">&gt;</button>
     </div>
 </div>
 	
@@ -152,10 +153,10 @@
     </div>
 
     <script>
-        const swiperWrapper = document.querySelector('.swiper-wrapper');
-        const slides = document.querySelectorAll('.swiper-slide');
-        const prevButton = document.querySelector('.swiper-button.prev');
-        const nextButton = document.querySelector('.swiper-button.next');
+        const swiperWrapper = document.querySelector('.swiper-wrapper2');
+        const slides = document.querySelectorAll('.swiper-slide2');
+        const prevButton = document.querySelector('.swiper-button.prev2');
+        const nextButton = document.querySelector('.swiper-button.next2');
         let currentIndex = 0;
 
         function updateSwiper() {
