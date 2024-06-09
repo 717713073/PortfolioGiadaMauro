@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.cdnfonts.com/css/tt-chocolates" rel="stylesheet">
 
-<!-- da qui -->
+<!-- da qui css slider -->
 <style>
 
         .swiper-container {
@@ -51,7 +51,7 @@
             right: 10px;
         }
     </style>
-<!-- fino a qui -->
+<!-- fino a qui css slider -->
   
   </head>
   
@@ -109,6 +109,7 @@
 	
 </div>	
 
+<!-- da qui form -->
  <div class="containercontatti">
     <h1 id="CONTATTI" style="color: white">CONTATTAMI QUI</h1>
 
@@ -141,21 +142,12 @@
 
 </form>
 </div>
+<!--fino a qui form -->
 
 
 
-<!-- da qui -->	  
- <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="Immagini/Triante1.jpg" alt="Slide 1" style= "width 30%"></div>
-            <div class="swiper-slide"><img src="Immagini/Triante2.jpg" alt="Slide 2" style= "width 30%"></div>
-            <div class="swiper-slide"><img src="Immagini/Triante3.jpg" alt="Slide 3" style= "width 30%"></div>
-        </div>
-        <button class="swiper-button prev">&lt;</button>
-        <button class="swiper-button next">&gt;</button>
-    </div>
-
-    <script>
+<!-- da qui animazione slider -->	
+ <script>
         const swiperWrapper = document.querySelector('.swiper-wrapper');
         const slides = document.querySelectorAll('.swiper-slide');
         const prevButton = document.querySelector('.swiper-button.prev');
@@ -177,9 +169,9 @@
             updateSwiper();
         });
     </script>
-<!-- fino a qui -->
+<!-- fino a qui animazione slider -->
 
-
+<!-- da qui animazione bottone torna su -->	
 <button class="back-to-top" id="backToTop">Torna su</button>
 
     <script>
@@ -199,6 +191,7 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
+<!-- fino a qui animazione bottone torna su -->
 
 
 	  
