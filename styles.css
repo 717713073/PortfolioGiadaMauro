@@ -265,7 +265,7 @@ padding-bottom: 50px;
 
 .swiper-container2 {
             position: relative;
-            height: 150px;
+            height: 375px;
             max-width: 600px;
             overflow: hidden;
 	    margin-left:80px;
@@ -281,7 +281,7 @@ padding-bottom: 50px;
             box-sizing: border-box;
         }
         .swiper-slide img {
-            width: 600px;
+            height: 375px;
             display: block;
         }
         .swiper-button2 {
