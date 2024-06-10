@@ -305,7 +305,7 @@ color: white;
 .altricontatti {
 text-align: center;
 margin-top: 40px;
-margin-left: 130px;
+margin-left: 10px;
 border-color: 1px solid white;
 }}
 
@@ -313,7 +313,7 @@ border-color: 1px solid white;
 .servizi {
 text-align: center;
 margin-top: 40px;
-margin-left: 115px;
+margin-left: 95px;
 border-color: 1px solid white;
 }}
 	
@@ -368,14 +368,14 @@ margin-bottom:20px;
 .form-group4 {
 margin-top: 40px;
 margin-bottom: 30px;
-margin-left: 100px;
+margin-left: 140px;
 width: 15%;
 border-radius: 5px, 5px, 5px, 5px;
 }}	
 
 @media (max-width: 480px){	
 .robot {
-margin-left: 40px;
+margin-left: 30px;
 margin-right: 20px;
 height: 20px;
 }}
