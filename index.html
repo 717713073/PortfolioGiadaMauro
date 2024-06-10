@@ -159,20 +159,20 @@
         const slides = document.querySelectorAll('.swiper-slide2');
         const prevButton = document.querySelector('.swiper-button.prev2');
         const nextButton = document.querySelector('.swiper-button.next2');
-        var currentIndex = 0;
+        let currentIndex2 = 0;
 
         function updateSwiper() {
-            const offset = -currentIndex * 100;
+            const offset = -currentIndex2 * 100;
             swiperWrapper.style.transform = `translateX(${offset}%)`;
         }
 
         prevButton.addEventListener('click', () => {
-            currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+            currentIndex2 = (currentIndex2 > 0) ? currentIndex2 - 1 : slides.length - 1;
             updateSwiper();
         });
 
         nextButton.addEventListener('click', () => {
-            currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+            currentIndex2 = (currentIndex2 < slides.length - 1) ? currentIndex2 + 1 : 0;
             updateSwiper();
         });
     </script>
