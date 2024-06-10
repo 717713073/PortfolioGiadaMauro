@@ -116,10 +116,21 @@ padding-bottom: 50px;
 margin-bottom: 30px;
 }
 
+.footer {
+display:flex;
+flex-direction: row;
+}
+
 .containercontatti {
 text-align: center;
 border-widht: 2px;
 margin-top: 30px;
+}
+
+.altricontatti {
+text-align: left;
+margin-top: 30px;
+margin-left: 50px;
 }
 	
 .form-control1 {
