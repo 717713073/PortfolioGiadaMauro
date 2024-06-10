@@ -31,7 +31,8 @@ border: 1px solid green;
   color: white;
   font-weight: 500;
   text-decoration: none;
-  margin-right: 100px;
+  margin-right:0px;
+padding-right: 50px;
  border: 1px solid orange;
 }
 
