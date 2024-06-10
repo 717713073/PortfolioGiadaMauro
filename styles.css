@@ -10,8 +10,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 90vw;
-  padding: 20px 70px;
+  width: 100%;
+  padding: 20px 40px;
   background: #2b2d42;
   display: flex;
   justify-content: space-between;
