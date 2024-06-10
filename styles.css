@@ -39,6 +39,7 @@ border: 1px solid green;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+width: 90vw;
 padding-bottom: 80px;
 border: 10px solid yellow;
 }
