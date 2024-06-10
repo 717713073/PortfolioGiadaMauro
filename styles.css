@@ -119,6 +119,7 @@ margin-bottom: 30px;
 .footer {
 display:flex;
 flex-direction: row;
+height: 430px;
 }
 
 .containercontatti {
@@ -182,8 +183,8 @@ margin-bottom: 20px;
 }	
 
 .robot {
-margin-left: 610px;
-margin-right: 610px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 
