@@ -364,9 +364,10 @@ margin-bottom:20px;
 	
 @media (max-width: 480px){
 .form-group4 {
-margin-top: 20px;
-margin-bottom: 20px;
-width: 8%;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 50px;
+width: 10%;
 border-radius: 5px, 5px, 5px, 5px;
 background-color: white;
 }}	
@@ -375,7 +376,7 @@ background-color: white;
 .robot {
 margin-left: 20px;
 margin-right: 20px;
-height: 30px;
+height: 20px;
 }}
 
 
