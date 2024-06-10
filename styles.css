@@ -18,10 +18,12 @@ body {
   align-items: left;	
   z-index: 100;
   margin-bottom: 30px;
+  border: 1px solid yellow;
   }
 
 .logo {
 width: 20px;
+border: 1px solid green;
   }
 
 .navbar a {
@@ -30,6 +32,7 @@ width: 20px;
   font-weight: 500;
   text-decoration: none;
   padding-right: 80px;
+ border: 1px solid orange;
 }
 
 .landingpage {
