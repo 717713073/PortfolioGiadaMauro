@@ -10,7 +10,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 80vw;
+  width: 100vw;
   padding: 20px 70px;
   background: #2b2d42;
   display: flex;
@@ -204,7 +204,7 @@ margin-right: 200px;
   position: fixed;
   top: 0;
   left: 0;
-  width: 80vw;
+  width: 100vw;
   padding: 20px 70px;
   background: #2b2d42;
   display: flex;
