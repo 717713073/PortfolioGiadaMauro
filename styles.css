@@ -237,7 +237,7 @@ border: 1px solid green;
 @media (max-width: 480px){
 .landingpage {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 margin-bottom: 30px;
 margin-top: 40px;
 border: 1px solid white;
@@ -248,10 +248,10 @@ border: 1px solid white;
 border: 1px solid red;
 display: flex;
 flex-direction:row;
-height: 200px;
+height: 230px;
 text-align:center;
 margin-top: 40px;
-margin-left: 90px;
+margin-left: 130px;
 margin-bottom: 10px;
 }}
 
@@ -263,8 +263,8 @@ flex-direction: row;
 font-size: 25px;
 margin-top: 10px;
 margin-left: 20px;
-margin-right: 20px;
-width: 100px;
+margin-right: 60px;
+width: 150px;
 }}
 
 
