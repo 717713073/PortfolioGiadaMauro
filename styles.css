@@ -237,7 +237,7 @@ border: 1px solid green;
 @media (max-width: 480px){
 .landingpage {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 margin-bottom: 30px;
 margin-top: 40px;
 border: 1px solid white;
@@ -264,7 +264,7 @@ font-size: 25px;
 margin-top: 10px;
 margin-left: 20px;
 margin-right: 20px;
-width: 80px;
+width: 100px;
 }}
 
 
