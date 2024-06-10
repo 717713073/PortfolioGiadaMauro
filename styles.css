@@ -250,7 +250,7 @@ display: flex;
 flex-direction:row;
 height: 280px;
 text-align:center;
-margin-top: 40px;
+margin-top: 65px;
 margin-left: 95px;
 margin-bottom: 20px;
 }}
@@ -262,7 +262,7 @@ display: flex;
 flex-direction: row;
 font-size: 40px;
 text-align:center;
-margin-top: 25px;
+margin-top: 35px;
 margin-left: 120px;
 margin-right: 120px;
 width: 220px;
@@ -280,7 +280,7 @@ padding-bottom: 50px;
 
  .swiper-container{
             position: relative;
-            width: 600px;
+            width: 100%;
             max-width: 600px;
             overflow: hidden;
 	    margin-left:80px;
@@ -321,7 +321,7 @@ padding-bottom: 50px;
 
 .swiper-container2 {
             position: relative;
-            width: 600px;
+            width: 100%;
             max-width: 600px;
             overflow: hidden;
 	    margin-left:80px;
