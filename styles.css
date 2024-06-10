@@ -126,21 +126,21 @@ height: 430px;
 text-align: center;
 border-widht: 2px;
 margin-top: 30px;
-border-color: 1px solid pink;
+border-color: 1px solid white;
 }
 
 .altricontatti {
 text-align: left;
 margin-top: 40px;
-margin-left: 50px;
-border-color: 1px solid pink;
+margin-left: 30px;
+border-color: 1px solid white;
 }
 
 .servizi {
 text-align: left;
 margin-top: 40px;
-margin-left: 50px;
-border-color: 1px solid pink;
+margin-left: 100px;
+border-color: 1px solid white;
 }
 	
 .form-control1 {
