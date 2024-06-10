@@ -171,8 +171,11 @@ margin-bottom: 20px;
 background-color: yellow;
 border-radius: 12px 12px 12px 12px;
 padding:8px;
-
 }	
+
+.btn btn-primary {
+background-color: green;
+}
 
 .robot {
 margin-left: 600px;
