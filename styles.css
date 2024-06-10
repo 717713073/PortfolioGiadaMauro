@@ -51,7 +51,7 @@ height: 430px;
 text-align:center;
 margin-top: 100px;
 margin-left: 80px;
-margin-bottom: 130px;
+margin-bottom: 40px;
 }
 
 .descrizione {
@@ -206,7 +206,7 @@ margin-right: 200px;
   position: fixed;
   top: 0;
   left: 0;
-  width: 90vw;
+  width: 80vw;
   padding: 10px 60px;
   background: #2b2d42;
   display: flex;
@@ -252,7 +252,7 @@ height: 200px;
 text-align:center;
 margin-top: 40px;
 margin-left: 20px;
-margin-bottom: 30px;
+margin-bottom: 10px;
 }}
 
 @media (max-width: 480px){
