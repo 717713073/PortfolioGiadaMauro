@@ -286,8 +286,9 @@ padding-bottom: 50px;
 @media (max-width: 480px){
 .footer {
 display:flex;
-flex-direction: row;
+flex-direction: column;
 height: 800px;
+width: 80vw;
 }}
 
 @media (max-width: 480px){
@@ -364,10 +365,10 @@ margin-bottom:20px;
 	
 @media (max-width: 480px){
 .form-group4 {
-margin-top: 30px;
+margin-top: 40px;
 margin-bottom: 30px;
 margin-left: 50px;
-width: 10%;
+width: 20%;
 border-radius: 5px, 5px, 5px, 5px;
 background-color: white;
 }}	
