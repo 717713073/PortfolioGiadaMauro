@@ -239,9 +239,10 @@ border: 1px solid green;
 .landingpage {
 display: flex;
 flex-direction: row;
+width: 90vw
 margin-bottom: 30px;
 margin-top: 40px;
-border: 1px solid white;
+border: 1px solid yellow;
 }}
 
 @media (max-width: 480px){
