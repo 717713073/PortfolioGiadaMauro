@@ -199,15 +199,46 @@ margin-left: 200px;
 margin-right: 200px;
 }
 
+@media (max-width: 480px){
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 70px;
+  background: #2b2d42;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;	
+  z-index: 100;
+  margin-bottom: 30px;
+  border: 1px solid yellow;
+  }}
 
+@media (max-width: 480px){
+.navbar a {
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 50px;
+ border: 1px solid orange;
+}
+  }}
 
-@media (max-width: 480px)
+@media (max-width: 480px){
+.logo {
+width: 20px;
+border: 1px solid green;
+  }}
+
+@media (max-width: 480px){
 .landingpage {
 display: flex;
 flex-direction: row;
 padding-bottom: 80px;
 border: 1px solid white;
-}
+}}
 
 @media (max-width: 480px){
 .logoschermata {
