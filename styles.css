@@ -136,6 +136,8 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
+	margin: 40px;
+	background-color: #778DA9;
 
 	border-width: 5px;
 	border-color: pink;
