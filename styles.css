@@ -451,6 +451,7 @@
         .sezione1{
 	display: flex;
 	flex-direction: column;
+	padding-left: 25px;
 	}}
 
         @media (max-width: 480px){
