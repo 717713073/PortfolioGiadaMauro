@@ -455,7 +455,6 @@
         @media (max-width: 480px){
         .sezione1{
 	display: flex;
-	flex-direction: column;
 	
 	padding-left: 35px;
 	}}
@@ -475,7 +474,7 @@
         @media (max-width: 480px){		
 	.sezione2{
 	display: flex;
-	flex-direction: column;
+	
 	padding-left: 35px;
         }}
 
@@ -492,7 +491,7 @@
         @media (max-width: 480px){		
 	.sezione3{
 	display: flex;
-	flex-direction: column;
+	
 	padding-left: 35px;
         }}
 		
@@ -509,7 +508,7 @@
         @media (max-width: 480px){        
         .sezione4{
 	display: flex;
-	flex-direction: column;
+	
 	padding-left: 35px;
         }}
 
