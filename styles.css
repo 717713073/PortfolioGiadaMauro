@@ -120,8 +120,8 @@
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
             padding: 6px;
-			margin: 8px;
-			border-radius: 8px;
+	    margin: 8px;
+	    border-radius: 8px;
             cursor: pointer;
         }
 
@@ -134,7 +134,6 @@
         .box1{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 
 	border-width: 5px;
 	border-color: pink;
@@ -143,8 +142,7 @@
 
 
         .sezione1{
-	display: flex;
-	flex-direction: row;
+
 
 
 	border-width: 5px;
