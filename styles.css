@@ -88,13 +88,11 @@
             width: 80%;
             max-width: 500px;
             position: relative;
-            margin-bottom: 150px;
-	    margin-top: 10px;
             border: 2px solid #E0E1DD;
             overflow: hidden;
-	    margin-left: 100px;
 	    border-radius: 20px;
-			text-align: center;
+			    margin: auto;
+                            display: block;
         }
 
         .slides {
