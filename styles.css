@@ -402,14 +402,12 @@
         width: 80%;
         max-width: 250px;
         position: relative;
-        margin: 20px;
+        margin-bottom: 150px;
+	margin-top: 10px;
         border: 2px solid #E0E1DD;
         overflow: hidden;
-	border-radius: 13px;
-	
-	display: flex;
-	flex-direction: column;
-        }}
+	margin-left: 100px;
+	border-radius: 20px;
 
         @media (max-width: 480px){	
 	.slides {
@@ -425,25 +423,25 @@
 
         @media (max-width: 480px){		
         .slider-nav {
-         position: absolute;
-         top: 50%;
-         width: 100%;
-         display: flex;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+	}}
 
 	
-		
-        transform: translateY(-50%);
-        }}
 
         @media (max-width: 480px){		
         .slider-nav button {
-        border: none;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 6px;
-	margin: 8px;
-	border-radius: 8px;
-        cursor: pointer;
+            border: none;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 6px;
+	    margin: 8px;
+	    border-radius: 8px;
+            cursor: pointer;
         }}
 
         @media (max-width: 480px){		
@@ -455,16 +453,17 @@
         @media (max-width: 480px){
         .sezione1{
 	display: flex;
-	
-	padding-left: 35px;
+	flex-direction: row;
 	}}
 
         @media (max-width: 480px){
 	.textslider1{
-	text-align: center;
-	margin-top: 40px;
-	font-size: 20px;
-	font-weight: 300;
+		text-align: center;
+		margin-left: 150px;
+		margin-right: 150px;
+		margin-top: 120px;
+		font-size: 40px;
+		font-weight: 300;
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
@@ -474,33 +473,41 @@
         @media (max-width: 480px){		
 	.sezione2{
 	display: flex;
-	
-	padding-left: 35px;
+	flex-direction: row;
         }}
 
 		
         @media (max-width: 480px){		
         .textslider2{
-	text-align: center;
-	margin-top: 40px;
-	font-size: 20px;
-	font-weight: 300;
+		text-align: center;
+		margin-left: 150px;
+		margin-right: 150px;
+		margin-top: 120px;
+		font-size: 40px;
+		font-weight: 300;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
         }}
 			
 
         @media (max-width: 480px){		
 	.sezione3{
 	display: flex;
-	
-	padding-left: 35px;
+	flex-direction: row;
         }}
 		
         @media (max-width: 480px){		
 	.textslider3{
-	text-align: center;
-	margin-top: 40px;
-	font-size: 20px;
-	font-weight: 300;
+		text-align: center;
+		margin-left: 150px;
+		margin-right: 150px;
+		margin-top: 120px;
+		font-size: 40px;
+		font-weight: 300;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
         }}
 
 
@@ -508,16 +515,20 @@
         @media (max-width: 480px){        
         .sezione4{
 	display: flex;
-	
-	padding-left: 35px;
+	flex-direction: row;
         }}
 
         @media (max-width: 480px){		
 	.textslider4{
-        text-align: center;
-	margin-top: 40px;
-	font-size: 20px;
-	font-weight: 300;
+		text-align: center;
+		margin-left: 150px;
+		margin-right: 150px;
+		margin-top: 120px;
+		font-size: 40px;
+		font-weight: 300;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
         }}
 
             
