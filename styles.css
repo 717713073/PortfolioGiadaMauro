@@ -9,7 +9,7 @@
             background-color: #1B263B;
             padding: 10px 0;
             position: fixed;
-            width: 100%;
+            width: 100vw;
             top: 0;
 	    z-index: 1000;
         }
