@@ -94,6 +94,7 @@
             overflow: hidden;
 	    margin-left: 100px;
 	    border-radius: 20px;
+			justify-content: center;
         }
 
         .slides {
