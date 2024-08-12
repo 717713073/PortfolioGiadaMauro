@@ -89,7 +89,7 @@
             max-width: 500px;
             position: relative;
             margin-bottom: 150px;
-			margin-top: 10px;
+	    margin-top: 10px;
             border: 2px solid #E0E1DD;
             overflow: hidden;
 			margin-left: 100px;
@@ -406,6 +406,9 @@
         border: 2px solid #E0E1DD;
         overflow: hidden;
 	border-radius: 13px;
+	
+	display: flex;
+	flex-direction: column;
         }}
 
         @media (max-width: 480px){	
@@ -453,8 +456,6 @@
         .sezione1{
 	display: flex;
 	flex-direction: column;
-
-        flex-wrap: wrap;
 	
 	padding-left: 35px;
 	}}
