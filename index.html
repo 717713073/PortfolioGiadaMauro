@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">  
@@ -10,185 +12,240 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.cdnfonts.com/css/tt-chocolates" rel="stylesheet">
 
-  
-  </head>
-  
-  <body>
-	
-  <header class="header">
-	   <a href="#"> <img class="logo" src="Immagini/LogoMonogrammaNegativo.svg"></a>
-  <nav class="navbar">
-      <a href="#PORTFOLIO">Portfolio</a>
-      <a href="#CONTATTI">Contatti</a>
-    </nav>
-  </header>
-
-<div class= "landingpage">
-<div class= "logoschermata">
-<img src="Immagini/LogoCompletoBianco.svg"> 
-</div>
-
-<div class= "descrizione">
-<p style="color: white"> Graphic Designer & <br> Art Director </p>
-</div>
-
-</div>
+</head>
 
 
-<div id="PORTFOLIO" class="works" style= "padding-top: 40px; padding-bottom: 60px; background-color: white; width: 100%">
-<h1 style="color:#2b2d42">PORTFOLIO</h1>
-
-	
-<!-- MAGAZINE -->
-<div class="magazine" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%; border: 1px solid black">
-<div class="testomagazine" style= "padding-top:80px; padding-bottom:40px">
-<h2 style="color:#2b2d42; padding-right: 20px">Magazine</h2>
-<h3 style= "padding-left: 40px; padding-right: 20px">Creazione di copertina e pagine interne di un magazine a tema beauty.</h3>
-</div>
- <div class="swiper-container2">
-        <div class="swiper-wrapper2">
-            <div class="swiper-slide2"><img src="Immagini/Magazine1.jpg" alt="Slide 1" style= "width: 100%"></div>
-            <div class="swiper-slide2"><img src="Immagini/Magazine2.jpg" alt="Slide 2" style= "width: 100%"></div>
-        </div>
-        <button class="swiper-button prev2">&lt;</button>
-        <button class="swiper-button next2">&gt;</button>
+<body background="E:/Uni3anno/WebDesign/immagini/Sfondo1.jpg">
+    <div class="navbar">
+        <a href="#HOME" class="logo"><img src="E:/Uni3anno/WebDesign/immagini/LogoMonogrammaNegativo.svg"" alt="Logo"></a>
+        <a href="#PORTFOLIO">PORTFOLIO</a>
+        <a href="#CONTATTAMI">CONTATTAMI</a>
     </div>
-</div>
-<!-- FINE MAGAZINE -->
-
-
-<!-- BROCHURE -->
-<div class="brochure" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%; border: 1px solid black">
-<div class="testobrochure" style= "padding-top:80px; padding-bottom:40px">
-<h2 style="color:#2b2d42; padding-right: 20px">Brochure triante</h2>
-<h3 style= "padding-left: 40px; padding-right: 20px">Creazione di una brochure formato quadrato con 3 ante stampato su fronte e retro, forato in entrambe le ante esterne.</h3>
-</div>
- <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="Immagini/Triante1.jpg" alt="Slide 1" ></div>
-            <div class="swiper-slide"><img src="Immagini/Triante2.jpg" alt="Slide 2" ></div>
-            <div class="swiper-slide"><img src="Immagini/Triante3.jpg" alt="Slide 3" ></div>
+	
+	<div id="HOME" class="HOME">
+	
+	 
+	 <div class="logohome">
+	 <img src="E:/Uni3anno/WebDesign/immagini/LogoCompletoBianco.svg">
+	 </div>
+	 
+	 <div class="scrittehome">
+	 <p>GRAPHIC <br>
+	 DESIGNER <br>
+	 &middot<br>
+	 ART DIRECTOR</p>
+	 </div>
+	 
+	 
+	</div>
+	
+	<div id="PORTFOLIO" class="PORTFOLIO">
+	 <p> PORTFOLIO </p>
+    
+	
+	
+	
+	
+	<div class= "sezione1">
+	
+    <div class="slider">
+        <div class="slides" id="slides1">
+            <img src="E:/Uni3anno/WebDesign/immagini/Tri1.jpg" alt="Image 1">
+            <img src="E:/Uni3anno/WebDesign/immagini/Tri2.jpg" alt="Image 2">
+            <img src="E:/Uni3anno/WebDesign/immagini/Tri3.jpg" alt="Image 3">
         </div>
-        <button class="swiper-button prev">&lt;</button>
-        <button class="swiper-button next">&gt;</button>
+        
+		<div class="slider-nav">
+            <button onclick="prevSlide('slides1')">&#10094;</button>
+            <button onclick="nextSlide('slides1')">&#10095;</button>
+        </div>
+		
     </div>
-</div>
-<!-- FINE BROCHURE -->
-
-
-<!-- ETICHETTA -->	
-<div class="label" style= "padding-top: 20px; padding-bottom: 20px; background-color: white; width: 85%">
-<h3 style="color:#2b2d42">Etichetta vino</h3>
-<img src="Immagini/Vino1.jpg" width="20%">
-</div>
-<!-- FINE ETICHETTA -->
 	
-</div>	
-
-<!-- da qui footer -->
-<div class="footer">
- <div class="containercontatti">
-    <h1 id="CONTATTI">CONTATTAMI QUI</h1>
-
-<form name="contatti" method="POST" data-netlify="true">      
-<input type="hidden" name="subject" value="Nuovi dati ricevuti dalla form %{formName} (%{submissionId})" />
-<!-- form group   -->
-<div class="form-group1">
-<label  style= "color: white" for="nome"></label>
-<input style= "color: white" type="text" name="nome" id="nome" class="form-control1" placeholder="Nome">
-</div>
-      
-<!-- form group   -->
-<div class="form-group2">
-<label  style= "color: white" for="email"></label>
-<input style= "color: white" type="email" name="email" id="email" class="form-control2" placeholder="Email">
-</div>
-
-<div class="form-group3">
-<label  style= "color: white" for="nome"></label>
-<input style= "color: white" type="text" name="messaggio" id="messaggio" class="form-control3" placeholder="Messaggio">
-</div>
-      
-<br />
-<div class="robot" data-netlify-recaptcha="true"></div>
-<br/>
-
-<div class="form-group4">
-<button type="submit" class="btn btn-primary">INVIA</button>
-</div>
-
-</form>
-</div>
-
+	<div class= "textslider1"
+	 <h4> FLYER TRIANTE </h4>
+	 <p> Flyer triante pieghevole con foro sulle ante esterne che lasciano intravedere l'interno </p> 
+	</div>
 	
-</div>
-<!--fino a qui footer -->
+	</div>
+	
+	
+	
+	
+	
+	<div class= "sezione2">
 
+    <div class="slider">
+        <div class="slides" id="slides2">
+            <img src="E:/Uni3anno/WebDesign/immagini/Rivista1.jpg" alt="Image 1">
+            <img src="E:/Uni3anno/WebDesign/immagini/Rivista2.jpg" alt="Image 2">
+        </div>
+        
+		<div class="slider-nav">
+            <button onclick="prevSlide('slides2')">&#10094;</button>
+            <button onclick="nextSlide('slides2')">&#10095;</button>
+        </div>
+		
+	</div>	
+		
+	
+	<div class= "textslider2"
+	 <h4> MAGAZINE </h4>
+	 <p> Copertina e interno impaginazione di una rivista a tema beauty in formato A4 </p> 
+	</div>
+	
+	</div>
 
+    
+	
+	
+	
+	<div class= "sezione3">
+	
+	<div class="slider">
+        <div class="slides" id="slides3">
+            <img src="E:/Uni3anno/WebDesign/immagini/Tarocchi1.jpg" alt="Image 1">
+            <img src="E:/Uni3anno/WebDesign/immagini/Tarocchi2.jpg" alt="Image 2">
+            <img src="E:/Uni3anno/WebDesign/immagini/Tarocchi3.jpg" alt="Image 3">
+			<img src="E:/Uni3anno/WebDesign/immagini/Tarocchi4.jpg" alt="Image 4">
+        </div>
+        <div class="slider-nav">
+            <button onclick="prevSlide('slides3')">&#10094;</button>
+            <button onclick="nextSlide('slides3')">&#10095;</button>
+        </div>
+    </div>
 
-<!-- da qui animazione slider triante -->	
- <script>
-        const swiperWrapper = document.querySelector('.swiper-wrapper');
-        const slides = document.querySelectorAll('.swiper-slide');
-        const prevButton = document.querySelector('.swiper-button.prev');
-        const nextButton = document.querySelector('.swiper-button.next');
-        var currentIndex = 0;
+    <div class= "textslider3"
+	 <h4> TAROCCHI </h4>
+	 <p> Creazione delle grafiche interne e del dorso per Arcani Maggiori </p> 
+	</div>
+    
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	<div class= "sezione4">
+	
+	<div class="slider">
+        <div class="slides" id="slides4">
+            <img src="E:/Uni3anno/WebDesign/immagini/Birra1.jpg" alt="Image 1">
+            <img src="E:/Uni3anno/WebDesign/immagini/Birra2.jpg" alt="Image 2">
+            <img src="E:/Uni3anno/WebDesign/immagini/Birra3.jpg" alt="Image 3">
+			<img src="E:/Uni3anno/WebDesign/immagini/Birra4.jpg" alt="Image 4">
+            <img src="E:/Uni3anno/WebDesign/immagini/Birra5.jpg" alt="Image 5">
+            <img src="E:/Uni3anno/WebDesign/immagini/Birra6.jpg" alt="Image 6">
+        </div>
+        
+		<div class="slider-nav">
+            <button onclick="prevSlide('slides4')">&#10094;</button>
+            <button onclick="nextSlide('slides4')">&#10095;</button>
+        </div>
+    
+	</div>
+	 
 
-        function updateSwiper() {
-            const offset = -currentIndex * 100;
-            swiperWrapper.style.transform = `translateX(${offset}%)`;
+    <div class= "textslider4"
+	 <h4> ETICHETTA BIRRA </h4>
+	 <p> Realizzazione di un'etichetta per birra con grafica in 6 colorazioni differenti </p> 
+	</div>
+
+    </div>
+	
+	
+	
+	
+	
+	
+	<div id="CONTATTAMI" class="CONTATTAMI">
+
+  <div>
+     <form class="contact-form" action="submit-form.php" method="POST">
+        <p>CONTATTAMI<p>
+
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Motivo del Contatto</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <!-- reCAPTCHA -->
+        <div class="g-recaptcha" data-sitekey="la-tua-chiave-pubblica"></div>
+
+        <button type="submit">Invia</button>
+    </form>
+  </div>
+  
+  
+  <div class= "imgdestra">
+   <img src="E:/Uni3anno/WebDesign/immagini/LogoMonogramma.svg" alt="Image 1">
+  </div>
+
+	</div>
+	
+	
+	
+	
+
+    <footer>
+        <p>Telefono     +39 0101010101</p>
+        <p>Email     giada6srg@gmail.com</p>
+        <p>Instagram     giada.m_</p>
+        <p>&copy; 2024 GIAdesignportfolio. Tutti i diritti riservati.</p>
+    </footer>
+	 
+	 
+	 
+	 
+	 
+	 <script>
+        let slideIndex = {
+            'slides1': 0,
+            'slides2': 0,
+            'slides3': 0,
+            'slides4': 0
+        };
+
+        function showSlide(sliderId) {
+            const slides = document.getElementById(sliderId).getElementsByTagName('img');
+            if (slideIndex[sliderId] >= slides.length) {
+                slideIndex[sliderId] = 0;
+            }
+            if (slideIndex[sliderId] < 0) {
+                slideIndex[sliderId] = slides.length - 1;
+            }
+            const newTransform = `translateX(-${slideIndex[sliderId] * 100}%)`;
+            document.getElementById(sliderId).style.transform = newTransform;
         }
 
-        prevButton.addEventListener('click', () => {
-            currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
-            updateSwiper();
-        });
-
-        nextButton.addEventListener('click', () => {
-            currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
-            updateSwiper();
-        });
-    </script>
-<!-- fino a qui animazione slider triante -->
-
-
-
-<!-- da qui animazione slider magazine -->
- <script>
-        const swiperWrapper = document.querySelector('.swiper-wrapper2');
-        const slides = document.querySelectorAll('.swiper-slide2');
-        const prevButton = document.querySelector('.swiper-button.prev2');
-        const nextButton = document.querySelector('.swiper-button.next2');
-        var currentIndex = 0;
-
-        function updateSwiper() {
-            const offset = -currentIndex * 100;
-            swiperWrapper.style.transform = `translateX(${offset}%)`;
+        function nextSlide(sliderId) {
+            slideIndex[sliderId]++;
+            showSlide(sliderId);
         }
 
-        prevButton.addEventListener('click', () => {
-            currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
-            updateSwiper();
-        });
+        function prevSlide(sliderId) {
+            slideIndex[sliderId]--;
+            showSlide(sliderId);
+        }
 
-        nextButton.addEventListener('click', () => {
-            currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
-            updateSwiper();
-        });
+        
+        showSlide('slides1');
+        showSlide('slides2');
+        showSlide('slides3');
+        showSlide('slides4');
     </script>
-<!-- fino a qui animazione slider magazine -->
-
-
-
-	  
-
-<!-- da qui animazione bottone torna su -->	
-<button class="back-to-top" id="backToTop">Torna su</button>
+	
+	<button class="back-to-top" id="backToTop">Torna su</button>
 
     <script>
         const backToTopButton = document.getElementById('backToTop');
 
-        // Mostra il bottone quando si scrolla verso il basso di 100px
         window.addEventListener('scroll', () => {
             if (window.scrollY > 100) {
                 backToTopButton.classList.add('show');
@@ -197,17 +254,15 @@
             }
         });
 
-        // Scrolla verso l'alto quando si clicca il bottone
+  
         backToTopButton.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     </script>
-<!-- fino a qui animazione bottone torna su -->
 
-
-	  
-	  
+	
+	
 </body>
 
-</html>
 
+</html>
