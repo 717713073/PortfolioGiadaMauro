@@ -134,12 +134,17 @@
         .box1{
 	display: flex;
 	flex-direction: row;
+
+	border-width: 5px;
+	border-color: pink;
+	border-style: solid;
 	}
 
 
         .sezione1{
 	display: flex;
 	flex-direction: row;
+	padding: 70px;
 
 	border-width: 5px;
 	border-color: black;
@@ -153,6 +158,7 @@
 	margin-bottom: 80px;
 	font-size: 40px;
 	font-weight: 300;
+	padding: 70px;
 
 	border-width: 5px;
 	border-color: green;
