@@ -362,7 +362,8 @@
 	padding-left: 0px;
 	padding-top: 120px;
 	filter: invert(100%);
-        text-align: center;
+        display: block;
+	margin: auto;
 	}}
 			
 	@media (max-width: 480px){	
