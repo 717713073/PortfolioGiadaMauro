@@ -144,7 +144,7 @@
         .sezione1{
 	display: flex;
 	flex-direction: row;
-	margin-left: 70px
+	padding-left: 70px
 
 	border-width: 5px;
 	border-color: black;
@@ -154,10 +154,8 @@
 		
 	.textslider1{
 	text-align: center;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
 	font-size: 30px;
 	font-weight: 300;
 
