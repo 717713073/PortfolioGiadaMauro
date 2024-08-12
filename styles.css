@@ -402,12 +402,9 @@
         width: 80%;
         max-width: 250px;
         position: relative;
-        margin-bottom: 150px;
-	margin-top: 10px;
         border: 2px solid #E0E1DD;
         overflow: hidden;
-	margin-left: 100px;
-	border-radius: 20px;
+	border-radius: 15px;
 
         @media (max-width: 480px){	
 	.slides {
@@ -454,6 +451,9 @@
         .sezione1{
 	display: flex;
 	flex-direction: row;
+		border-width: 5px;
+	        border-color: green;
+	        border-style: solid;
 	}}
 
         @media (max-width: 480px){
@@ -474,6 +474,9 @@
 	.sezione2{
 	display: flex;
 	flex-direction: row;
+		border-width: 5px;
+	        border-color: green;
+	        border-style: solid;
         }}
 
 		
@@ -495,6 +498,9 @@
 	.sezione3{
 	display: flex;
 	flex-direction: row;
+		border-width: 5px;
+	        border-color: green;
+	        border-style: solid;
         }}
 		
         @media (max-width: 480px){		
@@ -516,6 +522,9 @@
         .sezione4{
 	display: flex;
 	flex-direction: row;
+		border-width: 5px;
+	        border-color: green;
+	        border-style: solid;
         }}
 
         @media (max-width: 480px){		
