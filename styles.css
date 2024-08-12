@@ -86,7 +86,7 @@
 		
 	.slider {
             width: 80%;
-            max-width: 700px;
+            max-width: 550px;
             position: relative;
             border: 2px solid #E0E1DD;
             overflow: hidden;
@@ -142,10 +142,7 @@
 
 
         .sezione1{
-
-
-
-	border-width: 5px;
+        border-width: 5px;
 	border-color: black;
 	border-style: solid;
 			
@@ -155,6 +152,7 @@
 	text-align: center;
 	font-size: 30px;
 	font-weight: 300;
+	margin-left: 120px;
 
 
 	border-width: 5px;
