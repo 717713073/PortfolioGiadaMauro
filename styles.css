@@ -331,5 +331,43 @@
             display: block; 
         }
 
+
+
+
+
+
+
+
+         @media (max-width: 480px){
+        .HOME {
+	display: flex;
+	flex-direction: column;
+	}}
+			
+	@media (max-width: 480px){	
+	.logohome {
+	width: 100px;
+	padding-left: 0px;
+	padding-top: 40px;
+	margin-bottom: 20px;
+	filter: invert(100%);
+	}}
+			
+	@media (max-width: 480px){	
+	.scrittehome {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: 20px;
+	margin-bottom:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	}}
+			
+
             
 
