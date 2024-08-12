@@ -215,7 +215,7 @@
         }
 		
 
-<!-- TOGLIERE MARGINE 20px PER RESPONSIVE -->		
+	
 		
 		.contact-form {
             padding: 20px;
@@ -262,7 +262,6 @@
             color: #fff;
             font-size: 16px;
             cursor: pointer;
-	    margin-left: 20px;
 	}
 
         .contact-form button:hover {
