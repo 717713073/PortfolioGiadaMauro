@@ -459,10 +459,7 @@
         @media (max-width: 480px){
 	.textslider1{
 		text-align: center;
-		margin-left: 150px;
-		margin-right: 150px;
-		margin-top: 120px;
-		font-size: 40px;
+		font-size: 20px;
 		font-weight: 300;
 	border-width: 5px;
 	border-color: black;
@@ -483,10 +480,7 @@
         @media (max-width: 480px){		
         .textslider2{
 		text-align: center;
-		margin-left: 150px;
-		margin-right: 150px;
-		margin-top: 120px;
-		font-size: 40px;
+                font-size: 20px;
 		font-weight: 300;
 	border-width: 5px;
 	border-color: black;
@@ -506,10 +500,7 @@
         @media (max-width: 480px){		
 	.textslider3{
 		text-align: center;
-		margin-left: 150px;
-		margin-right: 150px;
-		margin-top: 120px;
-		font-size: 40px;
+                font-size: 20px;
 		font-weight: 300;
 	border-width: 5px;
 	border-color: black;
@@ -530,10 +521,7 @@
         @media (max-width: 480px){		
 	.textslider4{
 		text-align: center;
-		margin-left: 150px;
-		margin-right: 150px;
-		margin-top: 120px;
-		font-size: 40px;
+                font-size: 20px;
 		font-weight: 300;
 	border-width: 5px;
 	border-color: black;
