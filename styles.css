@@ -11,16 +11,16 @@
             position: fixed;
             width: 100%;
             top: 0;
-			z-index: 1000;
+	    z-index: 1000;
         }
 
         .navbar a {
             color: white;
             padding: 14px 14px;
-			padding-bottom: 5px;
+	    padding-bottom: 5px;
             text-decoration: none;
             text-align: center;
-			align-content: center;
+	    align-content: center;
         }
 
         .navbar a:hover {
@@ -334,6 +334,18 @@
 
 
 
+
+         @media (max-width: 480px){
+           .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #1B263B;
+            padding: 10px 0;
+            position: fixed;
+            width: 100vw;
+            top: 0;
+	    z-index: 1000;
+	}}
 
 
 
