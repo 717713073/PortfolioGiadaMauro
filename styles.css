@@ -248,26 +248,26 @@
 		
 		
 		
-		.CONTATTAMI{
-			color: black;
-			background-color: white;
-			font-size: 30px;
-			text-align: center;
-			padding-top: 50px;
-			display: flex;
-			flex-direction: row;
-			padding-left: 200px;
+	.CONTATTAMI{
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 200px;
 			
         }
 		
-
-	
 		
-		.contact-form {
-            padding: 20px;
-            border-radius: 8px;
-            width: 600px;
-	    justify-content: center;
+		
+		
+	.contact-form {
+        padding: 20px;
+        border-radius: 8px;
+        width: 600px;
+	justify-content: center;
 			
         }
 
@@ -281,7 +281,6 @@
             display: block;
             margin-bottom: 5px;
             font-weight: 300;
-	
         }
 
         .contact-form input,
@@ -304,26 +303,28 @@
             padding: 10px;
             background-color: #778DA9;
             border: none;
-            border-radius: 18px;
+            border-radius: 4px;
             color: #fff;
             font-size: 16px;
             cursor: pointer;
-	}
+        }
 
-        .contact-form button:hover {
-            background-color: #778DA9;
+        
+	.contact-form button:hover {
+        background-color: #778DA9;
         }
         
 		
 		
-		.imgdestra{
-			width: 300px;
-			margin: 200px;
-		}
+	.imgdestra{
+	width: 300px;
+	margin: 200px;
+	}
 		
-		 .imgdestra {
-            display: inline-block;
-            animation: bounce 2s infinite;
+	
+	.imgdestra {
+        display: inline-block;
+        animation: bounce 2s infinite;
         }
 
         @keyframes bounce {
@@ -343,18 +344,19 @@
 		
 		
   
-            .footer {
+
+        footer {
             background-color: #0D1B2A;
             color: white;
             text-align: center;
             padding-top: 70px;
-	    padding-bottom: 30px;
-	    font-size: 15px;
-	    font-weight: 265;
+			padding-bottom: 30px;
+			font-size: 15px;
+			font-weight: 265;
         }
 
-        .footer p {
-        margin: 5px 0;
+        footer p {
+            margin: 5px 0;
         }
       
 	  
@@ -372,8 +374,8 @@
             z-index: 1000;
         }
         
-	.back-to-top.show {
-        display: block; 
+		.back-to-top.show {
+            display: block; 
         }
 
 
