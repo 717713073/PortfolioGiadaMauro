@@ -144,7 +144,7 @@
         .sezione1{
 	display: flex;
 	flex-direction: row;
-	margin: 70px;
+	margin-left: 70px
 
 	border-width: 5px;
 	border-color: black;
@@ -156,10 +156,11 @@
 	text-align: center;
 	margin-top: 80px;
 	margin-bottom: 80px;
+	margin-left: 120px;
+	margin-right: 120px;
 	font-size: 30px;
 	font-weight: 300;
-	margin-left: 110px;
-	margin-right: 110px;
+
 
 	border-width: 5px;
 	border-color: green;
