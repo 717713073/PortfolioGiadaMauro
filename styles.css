@@ -380,7 +380,133 @@
 	font-weight: 300;
 	text-align: center;
 	}}
+
+
+
+
+
+        @media (max-width: 480px){
+        .PORTFOLIO {
+	background-color: #ECECEC;
+	font-size: 50px;
+	font-weight: 500;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	padding-top:50px;
+	}}
+
+        @media (max-width: 480px){		
+	.slider {
+        width: 80%;
+        max-width: 250px;
+        position: relative;
+        margin: 20px;
+        border: 2px solid #E0E1DD;
+        overflow: hidden;
+	border-radius: 13px;
+        }}
+
+        @media (max-width: 480px){	
+	.slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        }}
+
+	@media (max-width: 480px){
+        .slides img {
+        width: 100%;
+        flex-shrink: 0;
+        }}
+
+        @media (max-width: 480px){		
+        .slider-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        }}
+
+        @media (max-width: 480px){		
+        .slider-nav button {
+        border: none;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 6px;
+	margin: 8px;
+	border-radius: 8px;
+        cursor: pointer;
+        }}
+
+        @media (max-width: 480px){		
+        .slider-nav button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        }}
+
+		
+        @media (max-width: 480px){
+        .sezione1{
+	display: flex;
+	flex-direction: column;
+	}}
+
+        @media (max-width: 480px){
+	.textslider1{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 300;
+        }}
+		
+
+        @media (max-width: 480px){		
+	.sezione2{
+	display: flex;
+	flex-direction: column;
+        }}
+
+		
+        @media (max-width: 480px){		
+        .textslider2{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 300;
+        }}
 			
+
+        @media (max-width: 480px){		
+	.sezione3{
+	display: flex;
+	flex-direction: column;
+        }}
+		
+        @media (max-width: 480px){		
+	.textslider3{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 300;
+        }}
+
+
+
+        @media (max-width: 480px){        
+        .sezione4{
+	display: flex;
+	flex-direction: column;
+        }}
+
+        @media (max-width: 480px){		
+	.textslider4{
+        text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 300;
+        }}
 
             
 
