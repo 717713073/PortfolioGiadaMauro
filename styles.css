@@ -426,10 +426,8 @@
         top: 50%;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         transform: translateY(-50%);
-	display: block;
-	margin: auto;
         }}
 
         @media (max-width: 480px){		
@@ -461,7 +459,6 @@
 	margin-top: 40px;
 	font-size: 20px;
 	font-weight: 300;
-	width: 100vp;
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
