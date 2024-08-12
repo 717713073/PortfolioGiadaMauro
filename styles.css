@@ -92,8 +92,8 @@
 	    margin-top: 10px;
             border: 2px solid #E0E1DD;
             overflow: hidden;
-			margin-left: 100px;
-			border-radius: 20px;
+	    margin-left: 100px;
+	    border-radius: 20px;
         }
 
         .slides {
@@ -131,66 +131,82 @@
 
 
         .sezione1{
-			display: flex;
-			flex-direction: row;
+	display: flex;
+	flex-direction: row;
+
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
 			
         }
 		
-		.textslider1{
-			text-align: center;
-			margin-left: 150px;
-			margin-right: 150px;
-			margin-top: 120px;
-			font-size: 40px;
-			font-weight: 300;
+	.textslider1{
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 120px;
+	font-size: 40px;
+	font-weight: 300;
+
+	border-width: 5px;
+	border-color: green;
+	border-style: solid;
 			
         }
 		
 		
-		    .sezione2{
-			display: flex;
-			flex-direction: row;
+	 .sezione2{
+	display: flex;
+	flex-direction: row;
+
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
         }
 		
-		.textslider2{
-			text-align: center;
-			margin-left: 150px;
-			margin-right: 150px;
-			margin-top: 120px;
-			font-size: 40px;
-			font-weight: 300;
+	.textslider2{
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 120px;
+	font-size: 40px;
+	font-weight: 300;
+
+	border-width: 5px;
+	border-color: green;
+	border-style: solid;
         }
 			
 
-	    .sezione3{
-			display: flex;
-			flex-direction: row;
+	.sezione3{
+	display: flex;
+	flex-direction: row;
         }
 		
-		.textslider3{
-			text-align: center;
-			margin-left: 150px;
-			margin-right: 150px;
-			margin-top: 120px;
-			font-size: 40px;
-			font-weight: 300;
+	.textslider3{
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 120px;
+	font-size: 40px;
+	font-weight: 300;
         }
 
 
 
         
         .sezione4{
-			display: flex;
-			flex-direction: row;
+	display: flex;
+	flex-direction: row;
         }
 		
-		.textslider4{
-			text-align: center;
-			margin-left: 150px;
-			margin-right: 150px;
-			margin-top: 120px;
-			font-size: 40px;
-			font-weight: 300;
+	.textslider4{
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 120px;
+	font-size: 40px;
+	font-weight: 300;
         }
 
 
