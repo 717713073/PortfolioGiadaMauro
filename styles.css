@@ -267,7 +267,7 @@
             padding: 20px;
             border-radius: 8px;
             width: 600px;
-			justify-content: center;
+	    justify-content: center;
 			
         }
 
@@ -343,8 +343,7 @@
 		
 		
   
-
-        footer {
+            .footer {
             background-color: #0D1B2A;
             color: white;
             text-align: center;
@@ -354,8 +353,8 @@
 	    font-weight: 265;
         }
 
-        footer p {
-            margin: 5px 0;
+        .footer p {
+        margin: 5px 0;
         }
       
 	  
@@ -373,8 +372,8 @@
             z-index: 1000;
         }
         
-		.back-to-top.show {
-            display: block; 
+	.back-to-top.show {
+        display: block; 
         }
 
 
@@ -432,8 +431,6 @@
 
 
      
-	border-width: 5px;
-	border-color: black;
-	border-style: solid;
+
             
 
