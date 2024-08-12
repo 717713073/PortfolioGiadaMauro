@@ -261,7 +261,8 @@
             color: #fff;
             font-size: 16px;
             cursor: pointer;
-        }
+	    margin-left: 20px;
+	}
 
         .contact-form button:hover {
             background-color: #778DA9;
@@ -302,9 +303,9 @@
             color: white;
             text-align: center;
             padding-top: 70px;
-			padding-bottom: 30px;
-			font-size: 15px;
-			font-weight: 265;
+	    padding-bottom: 30px;
+	    font-size: 15px;
+	    font-weight: 265;
         }
 
         footer p {
