@@ -346,12 +346,12 @@
 			
 	@media (max-width: 480px){	
 	.logohome {
-	width: 300px;
+	width: 250px;
 	padding-left: 0px;
-	padding-top: 100px;
+	padding-top: 120px;
 	margin-bottom: 20px;
 	filter: invert(100%);
-	text-align: center;
+	justify-content: center;
 	}}
 			
 	@media (max-width: 480px){	
