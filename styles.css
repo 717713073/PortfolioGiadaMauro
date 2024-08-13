@@ -149,7 +149,6 @@
 
 
 
-		
 	.textslider1{
 	text-align: center;
 	font-size: 30px;
@@ -206,6 +205,9 @@
         }
 
 
+
+
+
         .box4{
 	display: flex;
 	flex-direction: row;
@@ -220,9 +222,10 @@
 	background-color: white;
 	border-radius: 20px;
 
+	}
 
 
-		
+
 	.textslider4{
 	text-align: center;
 	font-size: 30px;
