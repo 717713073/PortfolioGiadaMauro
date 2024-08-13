@@ -95,19 +95,6 @@
 	}		
        
 
-        .fotoprofilo {
-            animation: color-toggle 4s infinite alternate;
-        }
-
-        @keyframes color-toggle {
-            0% {
-                filter: grayscale(100%); /* Bianco e nero */
-            }
-            100% {
-                filter: grayscale(0%); /* Colore */
-            }
-        }
-
 
 
 
