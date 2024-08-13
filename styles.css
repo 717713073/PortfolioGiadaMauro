@@ -148,6 +148,17 @@
 	padding-bottom: 40px;
 	background-color: white;
 	border-radius: 20px;
+
+		border-width: 3px;
+		borded-color: black;
+		border-style: solid;
+        }
+
+
+        .sezione1{
+		border-width: 3px;
+		borded-color: black;
+		border-style: solid;
         }
 
 
@@ -155,7 +166,11 @@
 	.textslider1{
 	text-align: center;
 	font-size: 30px;
-	font-weight: 300;		
+	font-weight: 300;
+
+		border-width: 3px;
+		borded-color: black;
+		border-style: solid;
         }
 		
 
@@ -222,9 +237,7 @@
 		border-radius: 20px;
 
 
-		border-width: 5px;
-		borded-color: black;
-		border-style: solid;
+
 
 	}
 
@@ -247,7 +260,7 @@
 		
 	.CONTATTAMI{
 	color: black;
-	background-color: yellow;
+	background-color: white;
 	font-size: 30px;
 	text-align: center;
 	padding-top: 50px;
