@@ -82,6 +82,11 @@
 			flex-direction: column;
 			margin-top: 10px;
 			padding-top:50px;
+
+
+		border-width: 5px;
+		borded-color: red;
+		border-style: solid;
 		}
 		
 	.slider {
