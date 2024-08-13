@@ -204,19 +204,20 @@
 
 
         .box4{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 120px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background-color: white;
-	border-radius: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 120px;
+		padding-top:40px;
+		padding-bottom: 40px;
+		background-color: white;
+		border-radius: 20px;
 
-		border-radius: 5px;
+
+		border-width: 5px;
 		borded-color: black;
 		border-style: solid;
 
