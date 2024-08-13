@@ -334,7 +334,7 @@
 		
   
 
-        footer {
+        .footer {
             background-color: #0D1B2A;
             color: white;
             text-align: center;
@@ -344,7 +344,7 @@
 			font-weight: 265;
         }
 
-        footer p {
+        .footer p {
             margin: 5px 0;
         }
       
