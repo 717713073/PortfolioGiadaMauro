@@ -139,8 +139,6 @@
         .box1{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
 	margin-left: 40px;
 	margin-right: 40px;
 	margin-bottom: 120px;
@@ -156,9 +154,12 @@
 
 
         .sezione1{
+		align-items: left;
+		
 		border-width: 3px;
-		borded-color: black;
+		borded-color: red;
 		border-style: solid;
+		
         }
 
 
@@ -167,9 +168,10 @@
 	text-align: center;
 	font-size: 30px;
 	font-weight: 300;
+	align-items: right;
 
 		border-width: 3px;
-		borded-color: black;
+		borded-color: blue;
 		border-style: solid;
         }
 		
