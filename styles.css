@@ -189,14 +189,29 @@
 	padding-bottom: 40px;
 	background-color: white;
 	border-radius: 20px;
+
+		border-width: 3px;
+		borded-color: black;
+		border-style: solid;
 	}
 
-
+        .sezione2{
+                margin-left: 100px;
+		
+		border-width: 3px;
+		borded-color: red;
+		border-style: solid;
 		
 	.textslider2{
 	text-align: center;
 	font-size: 30px;
-	font-weight: 300;		
+	font-weight: 300;
+	margin-left: 100px;
+	
+
+		border-width: 3px;
+		borded-color: blue;
+		border-style: solid;		
         }
 			
 
