@@ -154,7 +154,7 @@
 
 
         .sezione1{
-		align-items: left;
+                margin-left: 50px;
 		
 		border-width: 3px;
 		borded-color: red;
@@ -168,7 +168,7 @@
 	text-align: center;
 	font-size: 30px;
 	font-weight: 300;
-	align-items: right;
+	
 
 		border-width: 3px;
 		borded-color: blue;
