@@ -75,6 +75,7 @@
 	font-size: 30px;
 	font-weight: 300;
 	padding: 50px;
+	padding-left: 100px;
 
 	border-style: solid;
 	border-color: yellow;
@@ -86,6 +87,7 @@
 	font-size: 50px;
 	font-weight: 300;
 	padding: 50px;
+	margin-left: 150px;
 
 	border-style: solid;
 	border-color: red;
@@ -329,7 +331,7 @@
             padding: 10px;
             background-color: #778DA9;
             border: none;
-            border-radius: 4px;
+            border-radius: 18px;
             color: #fff;
             font-size: 16px;
             cursor: pointer;
