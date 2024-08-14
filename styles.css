@@ -185,6 +185,17 @@
 	font-weight: 300;
 	margin-left: 100px;
 	max-width: 350px;
+
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+        }
+
+	.sezione1{
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;	
+	
         }
 		
 
@@ -204,7 +215,9 @@
 
 
 	.sezione2{
-	
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;	
 	
         }
 
@@ -214,6 +227,10 @@
 	font-weight: 300;
 	margin-left: 100px;
 	max-width: 350px;
+
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
 	
         }
 			
@@ -233,7 +250,9 @@
         }
 
 	.sezione3{
-	
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
 	
         }
 
@@ -243,6 +262,10 @@
 	font-size: 30px;
 	font-weight: 300;
 	max-width: 350px;
+
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
         }
 
 
@@ -266,6 +289,9 @@
 
 
         .sezione4{
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
 	
 	}
 
@@ -275,6 +301,10 @@
 	font-size: 30px;
 	font-weight: 300;
 	max-width: 350px;
+
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
         }
 
 
