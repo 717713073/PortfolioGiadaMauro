@@ -175,7 +175,7 @@
         }
 
 	.sezione1{
-        margin-left: 200px;
+        margin-left: 180px;
 		
 	border-style: solid;
 	border-color: yellow;
@@ -188,7 +188,7 @@
 	font-size: 30px;
 	font-weight: 300;
 	max-width: 350px;
-	margin-left: 200px;
+	margin-left: 100px;
 
 
 	border-style: solid;
@@ -211,7 +211,7 @@
 
 
 	.sezione2{
-        margin-left: 200px;
+        margin-left: 180px;
 		
 	border-style: solid;
 	border-color: yellow;
@@ -223,7 +223,7 @@
 	font-size: 30px;
 	font-weight: 300;
 	max-width: 350px;
-	margin-left: 200px;
+	margin-left: 100px;
 
 
 	border-style: solid;
@@ -245,6 +245,8 @@
         }
 
 	.sezione3{
+        margin-left: 180px;
+	
 	border-style: solid;
 	border-color: yellow;
 	border-width: 3px;
@@ -256,6 +258,7 @@
 	font-size: 30px;
 	font-weight: 300;
 	max-width: 350px;
+	margin-left: 100px;
 
 
 	border-style: solid;
@@ -282,6 +285,8 @@
 
 
         .sezione4{
+        margin-left: 180px;
+		
 	border-style: solid;
 	border-color: yellow;
 	border-width: 3px;
@@ -293,6 +298,7 @@
 	font-size: 30px;
 	font-weight: 300;
 	max-width: 350px;
+	margin-left: 100px;
 
 
 	border-style: solid;
