@@ -175,7 +175,7 @@
         }
 
 	.sezione1{
-        margin-left: 180px;
+        margin-left: 160px;
 		
 	border-style: solid;
 	border-color: yellow;
@@ -189,6 +189,7 @@
 	font-weight: 300;
 	max-width: 350px;
 	margin-left: 100px;
+	align-items: center;
 
 
 	border-style: solid;
@@ -211,7 +212,7 @@
 
 
 	.sezione2{
-        margin-left: 180px;
+        margin-left: 160px;
 		
 	border-style: solid;
 	border-color: yellow;
@@ -224,6 +225,7 @@
 	font-weight: 300;
 	max-width: 350px;
 	margin-left: 100px;
+	align-items: center;
 
 
 	border-style: solid;
@@ -245,7 +247,7 @@
         }
 
 	.sezione3{
-        margin-left: 180px;
+        margin-left: 160px;
 	
 	border-style: solid;
 	border-color: yellow;
@@ -259,6 +261,7 @@
 	font-weight: 300;
 	max-width: 350px;
 	margin-left: 100px;
+	align-items: center;
 
 
 	border-style: solid;
@@ -285,7 +288,7 @@
 
 
         .sezione4{
-        margin-left: 180px;
+        margin-left: 160px;
 		
 	border-style: solid;
 	border-color: yellow;
@@ -299,6 +302,7 @@
 	font-weight: 300;
 	max-width: 350px;
 	margin-left: 100px;
+	align-items: center;
 
 
 	border-style: solid;
