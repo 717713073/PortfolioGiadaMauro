@@ -513,6 +513,8 @@
 	margin-bottom: 20px;
 	margin-top: 20px;
 	width: 300px;
+	justify-content: center;
+	align-items: center;
 
 	border-style: solid;
 	border-color: red;
