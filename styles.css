@@ -569,7 +569,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 	
 	margin: 25px;
 	padding-top: 40px;
@@ -580,6 +579,7 @@
 
 	@media (max-width: 480px){
 	.sezione1{
+	margin: 0 auto;
 		
 	border-style: solid;
 	border-color: yellow;
@@ -592,6 +592,7 @@
 	font-size: 15px;
 	font-weight: 300;
 	max-width: 250px;
+	margin: 0 auto;
 
 
 	border-style: solid;
