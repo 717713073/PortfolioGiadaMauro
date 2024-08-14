@@ -75,10 +75,6 @@
 	font-weight: 300;
 	padding: 50px;
 	padding-left: 200px;
-
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
 	}		
 			
 		
@@ -175,11 +171,7 @@
         }
 
 	.sezione1{
-        margin-left: 160px;
-		
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;	
+        margin-left: 160px;	
 	}
 
 
@@ -190,11 +182,6 @@
 	max-width: 350px;
 	margin-left: 100px;
 	align-content: center;
-
-
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
         }
 		
 
@@ -213,10 +200,6 @@
 
 	.sezione2{
         margin-left: 160px;
-		
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
         }
 
 	.textslider2{
@@ -226,11 +209,6 @@
 	max-width: 350px;
 	margin-left: 100px;
 	align-content: center;
-
-
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
         }
 			
 
@@ -248,10 +226,6 @@
 
 	.sezione3{
         margin-left: 160px;
-	
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
         }
 
 		
@@ -262,11 +236,6 @@
 	max-width: 350px;
 	margin-left: 100px;
 	align-content: center;
-
-
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
         }
 
 
@@ -289,10 +258,6 @@
 
         .sezione4{
         margin-left: 160px;
-		
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
 	}
 
 
@@ -303,11 +268,6 @@
 	max-width: 350px;
 	margin-left: 100px;
 	align-content: center;
-
-
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;
         }
 
 
