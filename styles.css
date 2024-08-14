@@ -495,6 +495,7 @@
 	font-weight: 300;
 	padding: 25px;
 	text-align: center;
+	line-height: 15px;
 	
 
 	border-style: solid;
@@ -509,7 +510,7 @@
 	font-weight: 300;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	width: 150px;
+	width: 300px;
 
 	border-style: solid;
 	border-color: red;
