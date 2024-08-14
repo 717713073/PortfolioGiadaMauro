@@ -565,9 +565,11 @@
 
         @media (max-width: 480px){
         .box1{
-	display: block;
+	display: flex;
 	flex-direction: column;
-	margin: auto;
+	justify-content: center;
+	
+	margin: 25px;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: white;
