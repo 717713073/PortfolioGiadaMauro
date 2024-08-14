@@ -488,6 +488,10 @@
 	color: white;
 	justify-content: center;
 	align-items: center;
+
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
 	}}
 			
 	
@@ -513,8 +517,6 @@
 	margin-bottom: 20px;
 	margin-top: 20px;
 	width: 300px;
-	justify-content: center;
-	align-items: center;
 
 	border-style: solid;
 	border-color: red;
