@@ -569,6 +569,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
 	
 	margin: 25px;
 	padding-top: 40px;
