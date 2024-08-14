@@ -478,7 +478,40 @@
 	}}
 
 
+	@media (max-width: 480px){
+	.PROFILO{
+	background-color: #415A77;
+        display: flex;
+	flex-direction: column;
+	padding: 20px;
+	color: white
+	}}
+			
+	
+	@media (max-width: 480px){		
+	.servizi{
+	font-size: 20px;
+	font-weight: 300;
+	padding: 10px;
+	padding-left: 20px;
 
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+	}}		
+			
+		
+	@media (max-width: 480px){	
+	.fotoprofilo{
+	font-size: 10px;
+	font-weight: 300;
+	margin-left: 20px;
+	margin-top: 30px;
+
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+	}}
 
 
      
