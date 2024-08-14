@@ -552,14 +552,14 @@
 
         @media (max-width: 480px){
 	.slider {
-            width: 80%;
+            width: 100%;
             max-width: 230px;
             position: relative;
             overflow: hidden;
 	    border-radius: 10px;
             display: flex;
-	    margin: auto;
-            display: block;
+            justify-content: center;
+	    align-items: center;
             }}
 
 
