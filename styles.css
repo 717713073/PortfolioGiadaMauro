@@ -517,12 +517,13 @@
 	.slider {
             width: 80%;
             max-width: 230px;
-            position: absolute;
+            position: relative;
             border: 1px solid #E0E1DD;
             overflow: hidden;
 	    border-radius: 10px;
 	    margin: auto;
             display: block;
+	justify-content: center;
 	
         }}
 
