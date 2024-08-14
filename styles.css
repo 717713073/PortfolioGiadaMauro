@@ -660,6 +660,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
 
         border-color: black;
 	border-width: 3px;
@@ -684,7 +685,7 @@
 
 	@media (max-width: 480px){        
 	.contact-form h2 {
-        margin-top: 0;
+        margin: 0 auto;
         font-size: 15px;
         text-align: center;
         }}
@@ -693,7 +694,6 @@
 	@media (max-width: 480px){		
 	.contact-form label {
         display: block;
-        margin-bottom: 5px;
         font-weight: 300;
 	margin: 0 auto;
 
@@ -719,6 +719,7 @@
 	.contact-form textarea {
             resize: vertical;
             min-height: 30px;
+	    margin: 0 auto;
         }}
 
         
@@ -732,6 +733,7 @@
             color: #fff;
             font-size: 14px;
             cursor: pointer;
+	    margin: 0 auto;
         }}
 
 
