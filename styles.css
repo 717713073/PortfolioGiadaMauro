@@ -518,12 +518,11 @@
             width: 80%;
             max-width: 230px;
             position: relative;
-            border: 1px solid #E0E1DD;
             overflow: hidden;
 	    border-radius: 10px;
 	    margin: auto;
             display: block;
-		padding-right: 20px;
+	margin-right: 20px;
 
 	
         }}
