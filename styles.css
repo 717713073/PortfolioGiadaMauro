@@ -744,7 +744,8 @@
 	@media (max-width: 480px){
 	.imgdestra{
 	width: 170px;
-	margin-top: 80px;
+	margin: 0 auto;
+	padding-top: 80px;
 	}
 		
 	
