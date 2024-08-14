@@ -523,9 +523,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            }}
 
-
-	
+         @media (max-width: 480px){
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+		justify-content: center;
+                align-items: center;
         }}
 
 
