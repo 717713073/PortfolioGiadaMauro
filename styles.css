@@ -674,7 +674,6 @@
         padding: 10px;
         border-radius: 8px;
         width: 320px;
-	justify-content: center;
 	margin: 0 auto;
 
 	border-color: blue;
@@ -688,10 +687,6 @@
         margin-top: 0;
         font-size: 15px;
         text-align: center;
-
-	border-color: red;
-	border-width: 3px;
-	border-style: solid;
         }}
 
         
