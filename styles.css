@@ -563,17 +563,15 @@
 
 
 
-         @media (max-width: 480px){
+        @media (max-width: 480px){
         .box1{
-	display: flex;
+	display: block;
 	flex-direction: column;
-	margin: auto 0;
+	margin: auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: white;
 	border-radius: 10px;
-        justify-content: center;
-	align-items: center;
         }}
 
 	@media (max-width: 480px){
@@ -617,7 +615,16 @@
 	font-size: 15px;
 	font-weight: 300;
 	max-width: 250px;
-	}}     
+	}}    
+
+
+	@media (max-width: 480px){
+	.sezione2{
+		
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;	
+	}}
 
 
         @media (max-width: 480px){
@@ -639,6 +646,14 @@
 	font-size: 15px;
 	font-weight: 300;
 	max-width: 250px;
+	}}
+
+	@media (max-width: 480px){
+	.sezione3{
+		
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;	
 	}}
 
 
@@ -671,4 +686,13 @@
 	border-style: solid;
 	border-color: red;
 	border-width: 3px;
+	}}
+
+
+	@media (max-width: 480px){
+	.sezione4{
+		
+	border-style: solid;
+	border-color: yellow;
+	border-width: 3px;	
 	}}
