@@ -610,8 +610,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-        display: block;
-        margin: auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: white;
