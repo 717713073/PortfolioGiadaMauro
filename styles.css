@@ -504,11 +504,12 @@
 			
 		
 	@media (max-width: 480px){	
-	.fotoprofilo{
-	font-size: 10px;
+	.fotoprofilo >img{
+	font-size: 50px;
 	font-weight: 300;
-	margin-left: 20px;
-	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 20px;
 
 	border-style: solid;
 	border-color: red;
