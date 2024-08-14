@@ -82,11 +82,12 @@
 	}		
 			
 		
-	.fotoprofilo{
+	.fotoprofilo >img{
 	font-size: 50px;
 	font-weight: 300;
 	margin-left: 150px;
 	margin-top: 100px;
+	width: 450px;
 
 	border-style: solid;
 	border-color: red;
