@@ -303,9 +303,10 @@
 	    margin-left: 350px;
 	    margin-top: 30px;
 
-	    margin: 0 auto;
-            padding: 0 auto;
+	    display: flex;
+	    flex-direction: column;
             box-sizing: border-box;
+	    align-items: center;
 
 	border-style: solid;
 	border-color: red;
