@@ -289,7 +289,7 @@
 	padding-top: 50px;
 	display: flex;
 	flex-direction: row;
-	max-height: 500px;
+	max-height: 650px;
 
         }
 		
@@ -368,7 +368,7 @@
 	width: 300px;
 	margin-top: 150px;
 	margin-left: 150px;
-	margin-bottom: 350px;
+	margin-bottom: 100px;
 	
 	border-style: solid;
 	border-color: yellow;
