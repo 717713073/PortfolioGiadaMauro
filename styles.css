@@ -776,6 +776,8 @@
 	@media (max-width: 480px){	
 	.imgdestra{
 	width: 200px;
+	margin: 0 auto;
+	display: block;
 
 
 	
@@ -793,7 +795,7 @@
             color: white;
             text-align: center;
             padding-top: 70px;
-			padding-bottom: 45px;
-			font-size: 15px;
-			font-weight: 265;
+	    padding-bottom: 55px;
+	    font-size: 15px;
+	    font-weight: 265;
         }}
