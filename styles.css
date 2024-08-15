@@ -678,8 +678,10 @@
 	font-size: 15px;
 	text-align: center;
 	padding-top: 50px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	max-height: 680px;
 
 
