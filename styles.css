@@ -1,6 +1,9 @@
  body {
             margin: 0;
             font-family: 'TT Chocolates', sans-serif;
+
+	    box-sizing: border-box; /* Include padding e bordo nella larghezza */
+            padding: 0;
         }
 
         .navbar {
@@ -288,7 +291,7 @@
 	display: flex;
 	flex-direction: row;
 	padding-left: 200px;
-			
+
         }
 		
 		
@@ -302,10 +305,6 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-
-	    box-sizing: border-box;
-            margin: 0;
-            padding: 0;
         }
 
         .contact-form-container h2 {
