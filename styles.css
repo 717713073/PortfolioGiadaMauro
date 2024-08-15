@@ -782,3 +782,49 @@
 	    font-size: 15px;
 	    font-weight: 265;
         }}
+
+
+
+
+
+
+
+        .slideshow {
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px;
+            background-color: #fff; /* Sfondo bianco per il contenitore */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+            margin: auto;
+        }
+
+        /* Contenitore delle immagini */
+        .slides {
+            display: flex;
+            width: 400%; /* 100% per ogni immagine, 4 immagini totali */
+            animation: slide 6s infinite; /* 4 immagini x 1.5s ciascuna = 6s */
+        }
+
+        /* Contenitore di ciascuna immagine */
+        .slide {
+            width: 100%;
+            flex: 0 0 100%; /* Imposta la larghezza al 100% del contenitore */
+        }
+
+        /* Immagini del slideshow */
+        .slide img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+        }
+
+        /* Animazione dello slideshow */
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
