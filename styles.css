@@ -293,7 +293,7 @@
         }
 		
 		
-         .CONTATTAMI{
+         .contact-form-container{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -695,7 +695,7 @@
         }}
 		
 	@media (max-width: 480px){	
-         .CONTATTAMI{
+         .contact-form-container{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
