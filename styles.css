@@ -785,3 +785,15 @@
 	
 	}}
 
+
+
+         @media (max-width: 480px){
+            .footer {
+            background-color: #0D1B2A;
+            color: white;
+            text-align: center;
+            padding-top: 70px;
+			padding-bottom: 45px;
+			font-size: 15px;
+			font-weight: 265;
+        }}
