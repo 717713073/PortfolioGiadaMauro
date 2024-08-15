@@ -216,25 +216,22 @@
 	
 	<div id="CONTATTAMI" class="CONTATTAMI">
 
-  <div>
-     <form class="contact-form" action="submit-form.php" method="POST">
-        <p>CONTATTAMI<p>
+    <div class="contact-form-container">
+        <form action="#" method="post">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
 
-        <label for="name">Nome</label>
-        <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+            <label for="reason">Motivo del contatto</label>
+            <textarea id="reason" name="reason" required></textarea>
 
-        <label for="message">Motivo del Contatto</label>
-        <textarea id="message" name="message" required></textarea>
+            <div class="g-recaptcha" data-sitekey="la-tua-chiave-pubblica-reCAPTCHA"></div>
 
-        <!-- reCAPTCHA -->
-        <div class="g-recaptcha" data-sitekey="la-tua-chiave-pubblica"></div>
-
-        <button type="submit">Invia</button>
-    </form>
-  </div>
+            <button type="submit">Invia</button>
+        </form>
+    </div>
   
   
   <div class= "imgdestra">
