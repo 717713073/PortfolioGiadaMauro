@@ -293,11 +293,6 @@
         }
 		
 		
-         .contact-form-container{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
 		 
 	.contact-form-container {
@@ -308,7 +303,9 @@
 	    margin-left: 350px;
 	    margin-top: 30px;
 
-	    box-sizing: border-box;
+	    margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
 
 	border-style: solid;
 	border-color: red;
@@ -320,6 +317,10 @@
             margin-bottom: 20px;
             text-align: center;
 	    font-weight: 300;
+
+	    margin: 0 auto;
+            padding: 0 auto;
+            box-sizing: border-box;
         }
 
         .contact-form-container label {
