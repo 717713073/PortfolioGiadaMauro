@@ -364,7 +364,12 @@
 		
 	.imgdestra{
 	width: 300px;
-	margin: 200px;
+	margin: 150px;
+	align-items: center;
+	 border-style: solid;
+	border-color: yellow;
+	border-width: 3px;
+	
 	}
 		
 	
