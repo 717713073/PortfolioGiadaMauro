@@ -291,7 +291,7 @@
 	flex-direction: row;
 	max-height: 680px;
 	    margin-left: 350px;
-	    margin-top: 50px;
+	    margin-top: 80px;
         }
 		
 		
@@ -778,6 +778,10 @@
 	@media (max-width: 480px){	
 	.imgdestra{
 	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
 	
 	border-style: solid;
