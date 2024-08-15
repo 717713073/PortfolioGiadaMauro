@@ -305,9 +305,8 @@
             max-width: 400px;
 	    padding: 20px;
             background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-	    margin-left: 250px
+	    margin-left: 250px;
+	    font-weight: 300;
 
 	    box-sizing: border-box;
 
