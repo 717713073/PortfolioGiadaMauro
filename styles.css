@@ -778,6 +778,8 @@
 	width: 200px;
 	margin: 0 auto;
 	display: block;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
 
 	
@@ -794,8 +796,8 @@
             background-color: #0D1B2A;
             color: white;
             text-align: center;
-            padding-top: 70px;
-	    padding-bottom: 55px;
+            padding-top: 30px;
+	    padding-bottom: 65px;
 	    font-size: 15px;
 	    font-weight: 265;
         }}
