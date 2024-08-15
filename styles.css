@@ -291,7 +291,7 @@
 	flex-direction: row;
 	max-height: 680px;
 	    margin-left: 350px;
-	    margin-top: 30px;
+	    margin-top: 50px;
         }
 		
 		
@@ -700,10 +700,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	max-height: 680px;
 
-
-	border-style: solid;
+        border-style: solid;
 	border-color: blue;
 	border-width: 3px;
         }}
