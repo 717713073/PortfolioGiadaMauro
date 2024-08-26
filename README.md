@@ -11,9 +11,10 @@ Questo repository contiene informazioni e strumenti utilizzati per la realizzazi
 ## Portfolio personale - Giada Mauro
 ### Composizione del sito
 barra di navigazione superiore con tre sezioni:
-- sezione "home"
-- sezione "lavori"
-- sezione "contatti"
+- sezione "home" contenente logo e professione
+- sezione "profilo" contenente servizi e foto
+- sezione "portfolio" contenente dei lavori realizzati
+- sezione "contatti" contenente un form compilabile
 
 ### Strumenti utilizzati
 - Notepad++
