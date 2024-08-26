@@ -87,9 +87,6 @@
 	margin-top: 100px;
 	width: 450px;
 
-	border-style: solid;
-	border-color: red;
-	border-width: 3px;
 	}		
        
 
@@ -671,10 +668,7 @@
 
 	@media (max-width: 480px){
 	.sezione4{
-	margin: 0 auto;		
-	border-style: solid;
-	border-color: yellow;
-	border-width: 3px;	
+	margin: 0 auto;			
 	}}
 
 
